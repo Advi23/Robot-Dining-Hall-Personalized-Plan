@@ -1,0 +1,4 @@
+source;share/meal-plan/local_setup.bash
+source;share/meal-plan/local_setup.dsv
+source;share/meal-plan/local_setup.sh
+source;share/meal-plan/local_setup.zsh

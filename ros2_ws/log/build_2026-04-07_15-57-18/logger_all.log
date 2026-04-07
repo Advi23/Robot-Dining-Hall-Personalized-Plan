@@ -1,0 +1,190 @@
+[0.123s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.123s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7a170c180f20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a170c180c80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a170c180c80>>)
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.187s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/meal-plan) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/meal-plan) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/meal-plan) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/meal-plan) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/meal-plan) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/meal-plan) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/meal-plan) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/meal-plan) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/meal-plan) by extension 'ros'
+[0.227s] DEBUG:colcon.colcon_core.package_identification:Package 'src/meal-plan' with type 'ros.ament_cmake' and name 'meal-plan'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ros'
+[0.229s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_package' with type 'ros.ament_cmake' and name 'my_package'
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'meal-plan' build argument 'cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'meal-plan' build argument 'cmake_target' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'meal-plan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'meal-plan' build argument 'cmake_clean_cache' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'meal-plan' build argument 'cmake_clean_first' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'meal-plan' build argument 'cmake_force_configure' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'meal-plan' build argument 'ament_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'meal-plan' build argument 'catkin_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'meal-plan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.244s] DEBUG:colcon.colcon_core.verb:Building package 'meal-plan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/build/meal-plan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/meal-plan', 'merge_install': False, 'path': '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/src/meal-plan', 'symlink_install': False, 'test_result_base': None}
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.244s] DEBUG:colcon.colcon_core.verb:Building package 'my_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/build/my_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/my_package', 'merge_install': False, 'path': '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/src/my_package', 'symlink_install': False, 'test_result_base': None}
+[0.244s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.245s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.245s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/src/meal-plan' with build type 'ament_cmake'
+[0.245s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/src/meal-plan'
+[0.247s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.247s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.252s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/src/my_package' with build type 'ament_cmake'
+[0.252s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/src/my_package'
+[0.253s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/build/meal-plan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/src/meal-plan -DCMAKE_INSTALL_PREFIX=/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/meal-plan
+[0.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/my_package
+[3.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/build/meal-plan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/src/meal-plan -DCMAKE_INSTALL_PREFIX=/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/meal-plan
+[3.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/build/meal-plan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/build/meal-plan -- -j16 -l16
+[3.170s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/build/meal-plan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/build/meal-plan -- -j16 -l16
+[3.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/build/meal-plan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/build/meal-plan
+[3.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/my_package
+[3.486s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/build/my_package -- -j16 -l16
+[3.574s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(meal-plan)
+[3.576s] Level 1:colcon.colcon_core.environment:checking '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/meal-plan' for CMake module files
+[3.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/build/meal-plan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/build/meal-plan
+[3.584s] Level 1:colcon.colcon_core.environment:checking '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/meal-plan' for CMake config files
+[3.590s] Level 1:colcon.colcon_core.shell:create_environment_hook('meal-plan', 'cmake_prefix_path')
+[3.590s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/meal-plan/share/meal-plan/hook/cmake_prefix_path.dsv'
+[3.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/meal-plan/share/meal-plan/hook/cmake_prefix_path.sh'
+[3.596s] Level 1:colcon.colcon_core.environment:checking '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/meal-plan/bin'
+[3.597s] Level 1:colcon.colcon_core.environment:checking '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/meal-plan/lib/pkgconfig/meal-plan.pc'
+[3.598s] Level 1:colcon.colcon_core.environment:checking '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/meal-plan/lib/python3.12/site-packages'
+[3.599s] Level 1:colcon.colcon_core.environment:checking '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/meal-plan/bin'
+[3.599s] INFO:colcon.colcon_core.shell:Creating package descriptor '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/meal-plan/share/meal-plan/package.dsv'
+[3.602s] INFO:colcon.colcon_core.shell:Creating package script '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/meal-plan/share/meal-plan/package.sh'
+[3.604s] INFO:colcon.colcon_core.shell:Creating package script '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/meal-plan/share/meal-plan/package.bash'
+[3.606s] INFO:colcon.colcon_core.shell:Creating package script '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/meal-plan/share/meal-plan/package.zsh'
+[3.609s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/meal-plan/share/colcon-core/packages/meal-plan)
+[3.613s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(meal-plan)
+[3.613s] Level 1:colcon.colcon_core.environment:checking '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/meal-plan' for CMake module files
+[3.615s] Level 1:colcon.colcon_core.environment:checking '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/meal-plan' for CMake config files
+[3.621s] Level 1:colcon.colcon_core.shell:create_environment_hook('meal-plan', 'cmake_prefix_path')
+[3.621s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/meal-plan/share/meal-plan/hook/cmake_prefix_path.dsv'
+[3.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/meal-plan/share/meal-plan/hook/cmake_prefix_path.sh'
+[3.626s] Level 1:colcon.colcon_core.environment:checking '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/meal-plan/bin'
+[3.626s] Level 1:colcon.colcon_core.environment:checking '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/meal-plan/lib/pkgconfig/meal-plan.pc'
+[3.627s] Level 1:colcon.colcon_core.environment:checking '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/meal-plan/lib/python3.12/site-packages'
+[3.627s] Level 1:colcon.colcon_core.environment:checking '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/meal-plan/bin'
+[3.627s] INFO:colcon.colcon_core.shell:Creating package descriptor '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/meal-plan/share/meal-plan/package.dsv'
+[3.630s] INFO:colcon.colcon_core.shell:Creating package script '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/meal-plan/share/meal-plan/package.sh'
+[3.632s] INFO:colcon.colcon_core.shell:Creating package script '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/meal-plan/share/meal-plan/package.bash'
+[3.633s] INFO:colcon.colcon_core.shell:Creating package script '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/meal-plan/share/meal-plan/package.zsh'
+[3.635s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/meal-plan/share/colcon-core/packages/meal-plan)
+[3.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/build/my_package -- -j16 -l16
+[3.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/build/my_package
+[4.097s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package)
+[4.097s] Level 1:colcon.colcon_core.environment:checking '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/my_package' for CMake module files
+[4.097s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/build/my_package
+[4.104s] Level 1:colcon.colcon_core.environment:checking '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/my_package' for CMake config files
+[4.111s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'cmake_prefix_path')
+[4.112s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/my_package/share/my_package/hook/cmake_prefix_path.dsv'
+[4.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/my_package/share/my_package/hook/cmake_prefix_path.sh'
+[4.118s] Level 1:colcon.colcon_core.environment:checking '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/my_package/lib'
+[4.119s] Level 1:colcon.colcon_core.environment:checking '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/my_package/bin'
+[4.120s] Level 1:colcon.colcon_core.environment:checking '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/my_package/lib/pkgconfig/my_package.pc'
+[4.120s] Level 1:colcon.colcon_core.environment:checking '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/my_package/lib/python3.12/site-packages'
+[4.121s] Level 1:colcon.colcon_core.environment:checking '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/my_package/bin'
+[4.122s] INFO:colcon.colcon_core.shell:Creating package descriptor '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/my_package/share/my_package/package.dsv'
+[4.153s] INFO:colcon.colcon_core.shell:Creating package script '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/my_package/share/my_package/package.sh'
+[4.156s] INFO:colcon.colcon_core.shell:Creating package script '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/my_package/share/my_package/package.bash'
+[4.159s] INFO:colcon.colcon_core.shell:Creating package script '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/my_package/share/my_package/package.zsh'
+[4.161s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/my_package/share/colcon-core/packages/my_package)
+[4.223s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package)
+[4.224s] Level 1:colcon.colcon_core.environment:checking '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/my_package' for CMake module files
+[4.228s] Level 1:colcon.colcon_core.environment:checking '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/my_package' for CMake config files
+[4.233s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'cmake_prefix_path')
+[4.233s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/my_package/share/my_package/hook/cmake_prefix_path.dsv'
+[4.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/my_package/share/my_package/hook/cmake_prefix_path.sh'
+[4.238s] Level 1:colcon.colcon_core.environment:checking '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/my_package/lib'
+[4.238s] Level 1:colcon.colcon_core.environment:checking '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/my_package/bin'
+[4.238s] Level 1:colcon.colcon_core.environment:checking '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/my_package/lib/pkgconfig/my_package.pc'
+[4.239s] Level 1:colcon.colcon_core.environment:checking '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/my_package/lib/python3.12/site-packages'
+[4.240s] Level 1:colcon.colcon_core.environment:checking '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/my_package/bin'
+[4.240s] INFO:colcon.colcon_core.shell:Creating package descriptor '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/my_package/share/my_package/package.dsv'
+[4.243s] INFO:colcon.colcon_core.shell:Creating package script '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/my_package/share/my_package/package.sh'
+[4.245s] INFO:colcon.colcon_core.shell:Creating package script '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/my_package/share/my_package/package.bash'
+[4.246s] INFO:colcon.colcon_core.shell:Creating package script '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/my_package/share/my_package/package.zsh'
+[4.248s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/my_package/share/colcon-core/packages/my_package)
+[4.249s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.249s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.249s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.249s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.257s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.257s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.258s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[29.265s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+[29.266s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[29.268s] INFO:colcon.colcon_core.shell:Creating prefix script '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/local_setup.sh'
+[29.274s] INFO:colcon.colcon_core.shell:Creating prefix util module '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/_local_setup_util_sh.py'
+[29.283s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/setup.sh'
+[29.287s] INFO:colcon.colcon_core.shell:Creating prefix script '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/local_setup.bash'
+[29.290s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/setup.bash'
+[29.312s] INFO:colcon.colcon_core.shell:Creating prefix script '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/local_setup.zsh'
+[29.314s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/install/setup.zsh'

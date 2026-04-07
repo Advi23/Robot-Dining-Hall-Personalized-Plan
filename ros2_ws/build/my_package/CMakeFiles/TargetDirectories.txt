@@ -1,0 +1,10 @@
+/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/build/my_package/CMakeFiles/uninstall.dir
+/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/build/my_package/CMakeFiles/my_package_uninstall.dir
+/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/build/my_package/CMakeFiles/my_node.dir
+/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/build/my_package/CMakeFiles/test.dir
+/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/build/my_package/CMakeFiles/edit_cache.dir
+/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/build/my_package/CMakeFiles/rebuild_cache.dir
+/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/build/my_package/CMakeFiles/list_install_components.dir
+/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/build/my_package/CMakeFiles/install.dir
+/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/build/my_package/CMakeFiles/install/local.dir
+/u/nuzhat/Documents/Robot-Dining-Hall-Personalized-Plan/ros2_ws/build/my_package/CMakeFiles/install/strip.dir

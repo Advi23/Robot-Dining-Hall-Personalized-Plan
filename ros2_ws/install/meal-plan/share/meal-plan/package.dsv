@@ -1,0 +1,6 @@
+source;share/meal-plan/hook/cmake_prefix_path.dsv
+source;share/meal-plan/hook/cmake_prefix_path.sh
+source;share/meal-plan/local_setup.bash
+source;share/meal-plan/local_setup.dsv
+source;share/meal-plan/local_setup.sh
+source;share/meal-plan/local_setup.zsh
