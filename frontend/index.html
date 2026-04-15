@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot Dining Hall Personalized Plan</title>
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <video autoplay muted loop id="bg-video">
+        <!-- We will use a CSS fall-back background, but this adds flavor if we want video later. Leaving empty for css background -->
+    </video>
+    <div class="background-effects">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <h1 class="title">Robot Dining Hall <br><span class="highlight">Personalized Plan</span></h1>
+            <p class="subtitle">Fill out your dining hall preferences and let a robot help you become more nutritious!
+            </p>
+            <div class="progress-bar-container">
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+            <div class="step-indicator" id="step-indicator">Step 1 of 4</div>
+        </div>
+
+        <form id="dining-form">
+            <!-- PAGE 1 -->
+            <div class="form-page active" id="page-1">
+                <div class="question-group">
+                    <label class="question-title">What Meal Are You Having?</label>
+                    <p class="question-desc">Select one option</p>
+                    <div class="options-grid single-select" data-name="meal">
+                        <div class="option-btn radio-option" data-value="Breakfast">Breakfast</div>
+                        <div class="option-btn radio-option" data-value="Lunch">Lunch</div>
+                        <div class="option-btn radio-option" data-value="Dinner">Dinner</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PAGE 2 -->
+            <div class="form-page" id="page-2">
+                <div class="question-group">
+                    <label class="question-title">Overarching Diets</label>
+                    <p class="question-desc">Select all that apply</p>
+                    <div class="options-grid multi-select" data-name="diets">
+                        <div class="option-btn checkbox-option logic-none" data-value="None">None</div>
+                        <div class="option-btn checkbox-option" data-value="Vegan">Vegan</div>
+                        <div class="option-btn checkbox-option" data-value="Vegetarian">Vegetarian</div>
+                        <div class="option-btn checkbox-option" data-value="Kosher">Kosher</div>
+                        <div class="option-btn checkbox-option" data-value="Halal">Halal</div>
+                        <div class="option-btn checkbox-option" data-value="Pescatarian">Pescatarian</div>
+                        <div class="option-btn checkbox-option has-other" data-value="Other">Other</div>
+                    </div>
+                    <div class="other-input-container">
+                        <input type="text" class="other-text-input" name="diets_other" placeholder="Please specify...">
+                    </div>
+                </div>
+
+                <div class="question-group">
+                    <label class="question-title">Health Considerations</label>
+                    <p class="question-desc">Select one option</p>
+                    <div class="options-grid single-select" data-name="health">
+                        <div class="option-btn radio-option logic-none" data-value="None">None</div>
+                        <div class="option-btn radio-option" data-value="Diabetes (Type I)">Diabetes (Type I)</div>
+                        <div class="option-btn radio-option" data-value="Diabetes (Type II)">Diabetes (Type II)</div>
+                        <div class="option-btn radio-option" data-value="Celiac Disease">Celiac Disease</div>
+                        <div class="option-btn radio-option" data-value="Lactose Intolerant">Lactose Intolerant</div>
+                        <div class="option-btn radio-option has-other" data-value="Other">Other</div>
+                    </div>
+                    <div class="other-input-container">
+                        <input type="text" class="other-text-input" name="health_other" placeholder="Please specify...">
+                    </div>
+                </div>
+
+                <div class="question-group">
+                    <label class="question-title">Allergies</label>
+                    <p class="question-desc">Select all that apply</p>
+                    <div class="options-grid multi-select" data-name="allergies">
+                        <div class="option-btn checkbox-option logic-none" data-value="None">None</div>
+                        <div class="option-btn checkbox-option" data-value="Tree Nuts">Tree Nuts</div>
+                        <div class="option-btn checkbox-option" data-value="Peanuts">Peanuts</div>
+                        <div class="option-btn checkbox-option" data-value="Soy">Soy</div>
+                        <div class="option-btn checkbox-option" data-value="Shellfish">Shellfish</div>
+                        <div class="option-btn checkbox-option" data-value="Sesame">Sesame</div>
+                        <div class="option-btn checkbox-option" data-value="Eggs">Eggs</div>
+                        <div class="option-btn checkbox-option has-other" data-value="Other">Other</div>
+                    </div>
+                    <div class="other-input-container">
+                        <input type="text" class="other-text-input" name="allergies_other"
+                            placeholder="Please specify...">
+                    </div>
+                </div>
+            </div>
+
+            <!-- PAGE 3 -->
+            <div class="form-page" id="page-3">
+                <div class="question-group">
+                    <label class="question-title">Spice Tolerance</label>
+                    <p class="question-desc">Select one option</p>
+                    <div class="options-grid single-select" data-name="spice_tolerance">
+                        <div class="option-btn radio-option" data-value="None">None</div>
+                        <div class="option-btn radio-option" data-value="Mild">Mild</div>
+                        <div class="option-btn radio-option" data-value="Medium">Medium</div>
+                        <div class="option-btn radio-option" data-value="Hot">Hot</div>
+                        <div class="option-btn radio-option" data-value="Very Hot">Very Hot</div>
+                    </div>
+                </div>
+
+                <div class="question-group">
+                    <label class="question-title">Preferred Cuisines</label>
+                    <p class="question-desc">Select all that apply</p>
+                    <div class="options-grid multi-select" data-name="cuisines">
+                        <div class="option-btn checkbox-option logic-none" data-value="No preference">No preference
+                        </div>
+                        <div class="option-btn checkbox-option" data-value="American">American</div>
+                        <div class="option-btn checkbox-option" data-value="East Asian">East Asian (Chinese, Korean,
+                            Japanese, Other)</div>
+                        <div class="option-btn checkbox-option" data-value="South Asian">South Asian</div>
+                        <div class="option-btn checkbox-option" data-value="Caribbean">Caribbean</div>
+                        <div class="option-btn checkbox-option" data-value="Mediterranean">Mediterranean</div>
+                        <div class="option-btn checkbox-option" data-value="Middle Eastern">Middle Eastern</div>
+                        <div class="option-btn checkbox-option" data-value="Mexican/Central/South American">
+                            Mexican/Central/South American</div>
+                        <div class="option-btn checkbox-option" data-value="African">African</div>
+                        <div class="option-btn checkbox-option" data-value="European">European</div>
+                    </div>
+                </div>
+
+                <div class="question-group">
+                    <label class="question-title">Preferences for Fruits/Vegetables</label>
+                    <p class="question-desc">Short answer</p>
+                    <textarea class="text-area-input" name="fruit_veg_pref" rows="3"
+                        placeholder="I love broccoli and apples..."></textarea>
+                </div>
+
+                <div class="question-group">
+                    <label class="question-title">Preferences for Meat</label>
+                    <p class="question-desc">Select all that apply</p>
+                    <div class="options-grid multi-select" data-name="meat_pref">
+                        <div class="option-btn checkbox-option logic-none" data-value="No preference">No preference
+                        </div>
+                        <div class="option-btn checkbox-option" data-value="No Meat">No Meat</div>
+                        <div class="option-btn checkbox-option" data-value="Chicken">Chicken</div>
+                        <div class="option-btn checkbox-option" data-value="Shellfish/Fish">Shellfish/Fish</div>
+                        <div class="option-btn checkbox-option" data-value="Beef">Beef</div>
+                        <div class="option-btn checkbox-option" data-value="Pork">Pork</div>
+                        <div class="option-btn checkbox-option" data-value="Goat">Goat</div>
+                        <div class="option-btn checkbox-option" data-value="Venison">Venison</div>
+                    </div>
+                </div>
+
+                <div class="question-group">
+                    <label class="question-title">Soup and/or Salad</label>
+                    <p class="question-desc">Select all that apply</p>
+                    <div class="options-grid multi-select" data-name="soup_salad">
+                        <div class="option-btn checkbox-option logic-none" data-value="Neither">Neither</div>
+                        <div class="option-btn checkbox-option" data-value="Soup">Soup</div>
+                        <div class="option-btn checkbox-option" data-value="Salad">Salad</div>
+                    </div>
+                </div>
+
+                <div class="question-group">
+                    <label class="question-title">Eating Style</label>
+                    <p class="question-desc">Select one option</p>
+                    <div class="options-grid single-select" data-name="eating_style">
+                        <div class="option-btn radio-option" data-value="Go with the flow">Go with the flow</div>
+                        <div class="option-btn radio-option" data-value="High protein">High protein</div>
+                        <div class="option-btn radio-option" data-value="Low Carb">Low Carb</div>
+                        <div class="option-btn radio-option" data-value="Low Fat">Low Fat</div>
+                        <div class="option-btn radio-option" data-value="Plant-based">Plant-based</div>
+                        <div class="option-btn radio-option has-other" data-value="Other">Other</div>
+                    </div>
+                    <div class="other-input-container">
+                        <input type="text" class="other-text-input" name="eating_style_other"
+                            placeholder="Please specify...">
+                    </div>
+                </div>
+            </div>
+
+            <!-- PAGE 4 -->
+            <div class="form-page" id="page-4">
+                <div class="question-group">
+                    <label class="question-title">Any Foods You STRONGLY Dislike?</label>
+                    <p class="question-desc">Short answer</p>
+                    <textarea class="text-area-input" name="dislikes" rows="3"
+                        placeholder="I despise mushrooms..."></textarea>
+                </div>
+
+                <div class="question-group">
+                    <label class="question-title">Textures You Don't Prefer</label>
+                    <p class="question-desc">Select all that apply</p>
+                    <div class="options-grid multi-select" data-name="textures_avoid">
+                        <div class="option-btn checkbox-option logic-none" data-value="No preference">No preference
+                        </div>
+                        <div class="option-btn checkbox-option" data-value="Mushy">Mushy</div>
+                        <div class="option-btn checkbox-option" data-value="Slimy">Slimy</div>
+                        <div class="option-btn checkbox-option" data-value="Crunchy">Crunchy</div>
+                        <div class="option-btn checkbox-option" data-value="Mixed Textures">Mixed Textures</div>
+                        <div class="option-btn checkbox-option has-other" data-value="Other">Other</div>
+                    </div>
+                    <div class="other-input-container">
+                        <input type="text" class="other-text-input" name="textures_avoid_other"
+                            placeholder="Please specify...">
+                    </div>
+                </div>
+
+                <div class="question-group">
+                    <label class="question-title">Trying to Avoid Any Foods?</label>
+                    <p class="question-desc">Select one option</p>
+                    <div class="options-grid single-select" data-name="foods_avoid">
+                        <div class="option-btn radio-option logic-none" data-value="N/A">N/A</div>
+                        <div class="option-btn radio-option" data-value="Excess Amounts of Sugar">Excess Amounts of
+                            Sugar</div>
+                        <div class="option-btn radio-option" data-value="Processed Foods">Processed Foods</div>
+                        <div class="option-btn radio-option" data-value="Fried Foods">Fried Foods</div>
+                        <div class="option-btn radio-option has-other" data-value="Other">Other</div>
+                    </div>
+                    <div class="other-input-container">
+                        <input type="text" class="other-text-input" name="foods_avoid_other"
+                            placeholder="Please specify...">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="action-buttons">
+                <button type="button" class="btn btn-secondary" id="prev-btn" style="display: none;">Back</button>
+                <div class="spacer"></div>
+                <button type="button" class="btn btn-primary" id="next-btn">Continue</button>
+                <button type="button" class="btn btn-primary" id="submit-btn" style="display: none;">Submit
+                    Plan</button>
+            </div>
+        </form>
+
+        <!-- Final completion view (hidden until submit) -->
+        <div class="completion-view" id="completion-view" style="display: none;">
+            <div class="success-icon">✓</div>
+            <h2 class="title" style="margin-bottom: 20px;">Thank you for filling out the quiz!</h2>
+            <p class="subtitle" style="margin-bottom: 30px;">Your responses are greatly appreciated :)</p>
+            <div class="json-preview-container">
+                <p style="text-align: left; margin-bottom: 15px; font-weight: 500; color: var(--text-primary);">Output
+                    JSON (Internal Use):</p>
+                <pre id="json-output"></pre>
+            </div>
+            <button type="button" class="btn btn-secondary" onclick="location.reload()" style="margin-top: 30px;">Start
+                Over</button>
+        </div>
+    </div>
+
+    <!-- Error Toast -->
+    <div class="toast" id="error-toast">Please answer all required questions before proceeding.</div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
