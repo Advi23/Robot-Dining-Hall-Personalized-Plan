@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const stepIndicator = document.getElementById('step-indicator');
     const form = document.getElementById('dining-form');
     const completionView = document.getElementById('completion-view');
-    const jsonOutput = document.getElementById('json-output');
     const errorToast = document.getElementById('error-toast');
 
     let toastTimeout;
@@ -208,10 +207,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
-        // Hide form elements and show completion view
-        form.style.display = 'none';
-        document.querySelector('.header').style.display = 'none';
-
         try {
             const { data, error } = await supabase
                 .from('dining_preferences')
@@ -220,11 +215,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 ]);
             if (error) throw error;
 
-            // Output the JSON string and confirm success
-            jsonOutput.textContent = JSON.stringify(formData, null, 4) + "\n\n✅ Data successfully saved to Supabase!";
+            // Show completion view
+            form.style.display = 'none';
+            document.querySelector('.header').style.display = 'none';
+            completionView.style.display = 'block';
         } catch (error) {
             console.error("Error saving to Supabase:", error);
-            jsonOutput.textContent = JSON.stringify(formData, null, 4) + "\n\n❌ Error saving data: " + error.message;
+            showToast('Something went wrong saving your preferences. Please try again.');
         }
     });
 });

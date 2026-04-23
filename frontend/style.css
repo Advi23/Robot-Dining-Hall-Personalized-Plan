@@ -323,54 +323,23 @@ body {
     animation: fadeIn 0.4s ease forwards;
 }
 
-.completion-view .title {
+.completion-title {
+    font-size: 1.75rem;
+    font-weight: 700;
     color: var(--text-primary);
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 }
 
-.completion-view .subtitle {
+.completion-message {
     color: var(--text-secondary);
-    margin-bottom: 24px;
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 340px;
+    margin: 0 auto 32px;
 }
 
-.json-label {
-    text-align: left;
-    margin-bottom: 10px;
-    font-weight: 600;
-    font-size: 0.75rem;
-    color: var(--text-secondary);
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-}
-
-.json-preview-container {
-    background: var(--surface-alt);
-    border: 1px solid var(--border);
-    border-radius: var(--radius-md);
-    padding: 16px;
-    overflow-x: auto;
-    max-height: 340px;
-    text-align: left;
-    scrollbar-width: thin;
-    scrollbar-color: var(--border) transparent;
-}
-
-.json-preview-container::-webkit-scrollbar { width: 4px; height: 4px; }
-.json-preview-container::-webkit-scrollbar-thumb { background: var(--border-strong); border-radius: 4px; }
-.json-preview-container::-webkit-scrollbar-track { background: transparent; }
-
-#json-output {
-    color: #1A6E40;
-    font-family: 'Consolas', 'Monaco', monospace;
-    font-size: 0.82rem;
-    line-height: 1.65;
-    margin: 0;
-    white-space: pre-wrap;
-    word-break: break-word;
-}
-
-.completion-view .btn-secondary {
-    margin-top: 24px;
+.completion-view .btn-primary {
+    margin-top: 8px;
 }
 
 /* ── Toast ─────────────────────────────────────────── */
