@@ -1,0 +1,6 @@
+Invoking command in '/home/4_fri/bwi_ros2/build/apriltag_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/apriltag_ros/apriltag_msgs -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/apriltag_msgs
+Invoked command in '/home/4_fri/bwi_ros2/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/apriltag_ros/apriltag_msgs -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/apriltag_msgs
+Invoking command in '/home/4_fri/bwi_ros2/build/apriltag_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/apriltag_msgs -- -j12 -l12
+Invoked command in '/home/4_fri/bwi_ros2/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/apriltag_msgs -- -j12 -l12
+Invoking command in '/home/4_fri/bwi_ros2/build/apriltag_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/apriltag_msgs
+Invoked command in '/home/4_fri/bwi_ros2/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/apriltag_msgs

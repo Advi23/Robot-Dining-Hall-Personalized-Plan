@@ -1,0 +1,22 @@
+[0.033s] Invoking command in '/home/4_fri/bwi_ros2/build/nav_goals': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/nav_goals -- -j12 -l12
+[0.539s] [100%] Built target send_goal
+[0.551s] Invoked command in '/home/4_fri/bwi_ros2/build/nav_goals' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/nav_goals -- -j12 -l12
+[0.552s] Invoking command in '/home/4_fri/bwi_ros2/build/nav_goals': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/nav_goals
+[0.590s] -- Install configuration: ""
+[0.590s] -- Up-to-date: /home/4_fri/bwi_ros2/install/nav_goals/lib/nav_goals/send_goal
+[0.590s] -- Up-to-date: /home/4_fri/bwi_ros2/install/nav_goals/share/ament_index/resource_index/package_run_dependencies/nav_goals
+[0.590s] -- Up-to-date: /home/4_fri/bwi_ros2/install/nav_goals/share/ament_index/resource_index/parent_prefix_path/nav_goals
+[0.590s] -- Up-to-date: /home/4_fri/bwi_ros2/install/nav_goals/share/nav_goals/environment/ament_prefix_path.sh
+[0.590s] -- Up-to-date: /home/4_fri/bwi_ros2/install/nav_goals/share/nav_goals/environment/ament_prefix_path.dsv
+[0.590s] -- Up-to-date: /home/4_fri/bwi_ros2/install/nav_goals/share/nav_goals/environment/path.sh
+[0.590s] -- Up-to-date: /home/4_fri/bwi_ros2/install/nav_goals/share/nav_goals/environment/path.dsv
+[0.590s] -- Up-to-date: /home/4_fri/bwi_ros2/install/nav_goals/share/nav_goals/local_setup.bash
+[0.590s] -- Up-to-date: /home/4_fri/bwi_ros2/install/nav_goals/share/nav_goals/local_setup.sh
+[0.590s] -- Up-to-date: /home/4_fri/bwi_ros2/install/nav_goals/share/nav_goals/local_setup.zsh
+[0.590s] -- Up-to-date: /home/4_fri/bwi_ros2/install/nav_goals/share/nav_goals/local_setup.dsv
+[0.590s] -- Installing: /home/4_fri/bwi_ros2/install/nav_goals/share/nav_goals/package.dsv
+[0.590s] -- Up-to-date: /home/4_fri/bwi_ros2/install/nav_goals/share/ament_index/resource_index/packages/nav_goals
+[0.590s] -- Up-to-date: /home/4_fri/bwi_ros2/install/nav_goals/share/nav_goals/cmake/nav_goalsConfig.cmake
+[0.591s] -- Up-to-date: /home/4_fri/bwi_ros2/install/nav_goals/share/nav_goals/cmake/nav_goalsConfig-version.cmake
+[0.591s] -- Up-to-date: /home/4_fri/bwi_ros2/install/nav_goals/share/nav_goals/package.xml
+[0.649s] Invoked command in '/home/4_fri/bwi_ros2/build/nav_goals' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/nav_goals

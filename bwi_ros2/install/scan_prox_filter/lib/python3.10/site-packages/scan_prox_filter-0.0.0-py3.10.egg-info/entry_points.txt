@@ -1,0 +1,3 @@
+[console_scripts]
+scan_prox_filter_node = scan_prox_filter.scan_prox_filter:main
+

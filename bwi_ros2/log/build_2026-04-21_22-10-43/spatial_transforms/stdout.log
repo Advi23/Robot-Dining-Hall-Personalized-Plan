@@ -1,0 +1,22 @@
+[ 50%] Built target tf_listener_node
+[100%] Built target spatial_transform_node
+-- Install configuration: ""
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_transforms/lib/spatial_transforms/spatial_transform_node
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_transforms/lib/spatial_transforms/tf_listener_node
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_transforms/share/ament_index/resource_index/package_run_dependencies/spatial_transforms
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_transforms/share/ament_index/resource_index/parent_prefix_path/spatial_transforms
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_transforms/share/spatial_transforms/environment/ament_prefix_path.sh
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_transforms/share/spatial_transforms/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_transforms/share/spatial_transforms/environment/path.sh
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_transforms/share/spatial_transforms/environment/path.dsv
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_transforms/share/spatial_transforms/local_setup.bash
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_transforms/share/spatial_transforms/local_setup.sh
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_transforms/share/spatial_transforms/local_setup.zsh
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_transforms/share/spatial_transforms/local_setup.dsv
+-- Installing: /home/4_fri/bwi_ros2/install/spatial_transforms/share/spatial_transforms/package.dsv
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_transforms/share/ament_index/resource_index/packages/spatial_transforms
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_transforms/share/spatial_transforms/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_transforms/share/spatial_transforms/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_transforms/share/spatial_transforms/cmake/spatial_transformsConfig.cmake
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_transforms/share/spatial_transforms/cmake/spatial_transformsConfig-version.cmake
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_transforms/share/spatial_transforms/package.xml

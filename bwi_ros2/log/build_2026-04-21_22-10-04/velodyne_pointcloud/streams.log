@@ -1,0 +1,62 @@
+[0.023s] Invoking command in '/home/4_fri/bwi_ros2/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/home/4_fri/bwi_ros2/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/4_fri/bwi_ros2/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/4_fri/bwi_ros2/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/4_fri/bwi_ros2/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/velodyne_pointcloud -- -j12 -l12
+[0.111s] [ 11%] Built target gtest
+[0.115s] [ 27%] Built target velodyne_cloud_types
+[0.116s] [ 38%] Built target gtest_main
+[0.116s] [ 55%] Built target velodyne_rawdata
+[0.149s] [ 66%] Built target test_calibration
+[0.151s] [ 77%] Built target transform
+[0.159s] [ 88%] Built target test_row_step
+[0.184s] [100%] Built target velodyne_transform_node
+[0.219s] Invoked command in '/home/4_fri/bwi_ros2/build/velodyne_pointcloud' returned '0': AMENT_PREFIX_PATH=/home/4_fri/bwi_ros2/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/4_fri/bwi_ros2/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/4_fri/bwi_ros2/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/4_fri/bwi_ros2/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/velodyne_pointcloud -- -j12 -l12
+[0.222s] Invoking command in '/home/4_fri/bwi_ros2/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/home/4_fri/bwi_ros2/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/4_fri/bwi_ros2/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/4_fri/bwi_ros2/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/4_fri/bwi_ros2/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/velodyne_pointcloud
+[0.228s] -- Install configuration: ""
+[0.229s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/lib/libtransform.so
+[0.229s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/lib/velodyne_pointcloud/velodyne_transform_node
+[0.229s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/include/velodyne_pointcloud
+[0.229s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/include/velodyne_pointcloud/rawdata.hpp
+[0.229s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/include/velodyne_pointcloud/pointcloudXYZIRT.hpp
+[0.229s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/include/velodyne_pointcloud/calibration.hpp
+[0.229s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/include/velodyne_pointcloud/transform.hpp
+[0.229s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/include/velodyne_pointcloud/organized_cloudXYZIRT.hpp
+[0.229s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/include/velodyne_pointcloud/datacontainerbase.hpp
+[0.229s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/velodyne_pointcloud/config
+[0.229s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLS128-velodyne_transform_node-params.yaml
+[0.229s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLP16-velodyne_transform_node-params.yaml
+[0.230s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLP32C-velodyne_transform_node-params.yaml
+[0.230s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/velodyne_pointcloud/launch
+[0.230s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLS128-composed-launch.py
+[0.230s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP16-composed-launch.py
+[0.230s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP32C-launch.py
+[0.230s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLS128-launch.py
+[0.230s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP16-launch.py
+[0.230s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP32C-composed-launch.py
+[0.230s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/velodyne_pointcloud/params
+[0.230s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VeloView-VLP-32C.yaml
+[0.230s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLP16db.yaml
+[0.230s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_s2.1-sztaki.yaml
+[0.230s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_s3-xiesc.yaml
+[0.230s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/velodyne_pointcloud/params/issue_84_float_intensities.yaml
+[0.230s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLP16_hires_db.yaml
+[0.230s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/velodyne_pointcloud/params/rviz_points.vcg
+[0.230s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLS128.yaml
+[0.230s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_utexas.yaml
+[0.230s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/velodyne_pointcloud/params/32db.yaml
+[0.231s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/ament_index/resource_index/package_run_dependencies/velodyne_pointcloud
+[0.231s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/ament_index/resource_index/parent_prefix_path/velodyne_pointcloud
+[0.231s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/ament_prefix_path.sh
+[0.231s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/ament_prefix_path.dsv
+[0.231s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/path.sh
+[0.231s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/path.dsv
+[0.231s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.bash
+[0.231s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.sh
+[0.231s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.zsh
+[0.231s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.dsv
+[0.231s] -- Installing: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/velodyne_pointcloud/package.dsv
+[0.231s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/ament_index/resource_index/packages/velodyne_pointcloud
+[0.231s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/ament_index/resource_index/rclcpp_components/velodyne_pointcloud
+[0.231s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudConfig.cmake
+[0.231s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudConfig-version.cmake
+[0.231s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/share/velodyne_pointcloud/package.xml
+[0.232s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/lib/libvelodyne_cloud_types.so
+[0.232s] -- Up-to-date: /home/4_fri/bwi_ros2/install/velodyne_pointcloud/lib/libvelodyne_rawdata.so
+[0.245s] Invoked command in '/home/4_fri/bwi_ros2/build/velodyne_pointcloud' returned '0': AMENT_PREFIX_PATH=/home/4_fri/bwi_ros2/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/4_fri/bwi_ros2/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/4_fri/bwi_ros2/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/4_fri/bwi_ros2/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/velodyne_pointcloud

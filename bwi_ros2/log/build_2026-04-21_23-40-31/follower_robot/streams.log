@@ -1,0 +1,27 @@
+[0.023s] Invoking command in '/home/4_fri/bwi_ros2/build/follower_robot': AMENT_PREFIX_PATH=/home/4_fri/bwi_ros2/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/4_fri/bwi_ros2/install/apriltag_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/4_fri/bwi_ros2/install/apriltag_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/4_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/follower_robot -- -j12 -l12
+[0.095s] [35m[1mConsolidate compiler generated dependencies of target follower_robot[0m
+[0.147s] [ 25%] [32mBuilding CXX object CMakeFiles/follower_robot.dir/src/follower_robot.cpp.o[0m
+[0.149s] [ 50%] [32mBuilding CXX object CMakeFiles/follower_robot.dir/src/FollowerRobotNode.cpp.o[0m
+[5.085s] [ 75%] [32m[1mLinking CXX executable follower_robot[0m
+[5.366s] [100%] Built target follower_robot
+[5.373s] Invoked command in '/home/4_fri/bwi_ros2/build/follower_robot' returned '0': AMENT_PREFIX_PATH=/home/4_fri/bwi_ros2/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/4_fri/bwi_ros2/install/apriltag_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/4_fri/bwi_ros2/install/apriltag_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/4_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/follower_robot -- -j12 -l12
+[5.374s] Invoking command in '/home/4_fri/bwi_ros2/build/follower_robot': AMENT_PREFIX_PATH=/home/4_fri/bwi_ros2/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/4_fri/bwi_ros2/install/apriltag_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/4_fri/bwi_ros2/install/apriltag_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/4_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/follower_robot
+[5.380s] -- Install configuration: ""
+[5.380s] -- Installing: /home/4_fri/bwi_ros2/install/follower_robot/lib/follower_robot/follower_robot
+[5.382s] -- Set runtime path of "/home/4_fri/bwi_ros2/install/follower_robot/lib/follower_robot/follower_robot" to ""
+[5.382s] -- Up-to-date: /home/4_fri/bwi_ros2/install/follower_robot/share/ament_index/resource_index/package_run_dependencies/follower_robot
+[5.382s] -- Up-to-date: /home/4_fri/bwi_ros2/install/follower_robot/share/ament_index/resource_index/parent_prefix_path/follower_robot
+[5.382s] -- Up-to-date: /home/4_fri/bwi_ros2/install/follower_robot/share/follower_robot/environment/ament_prefix_path.sh
+[5.382s] -- Up-to-date: /home/4_fri/bwi_ros2/install/follower_robot/share/follower_robot/environment/ament_prefix_path.dsv
+[5.382s] -- Up-to-date: /home/4_fri/bwi_ros2/install/follower_robot/share/follower_robot/environment/path.sh
+[5.382s] -- Up-to-date: /home/4_fri/bwi_ros2/install/follower_robot/share/follower_robot/environment/path.dsv
+[5.383s] -- Up-to-date: /home/4_fri/bwi_ros2/install/follower_robot/share/follower_robot/local_setup.bash
+[5.383s] -- Up-to-date: /home/4_fri/bwi_ros2/install/follower_robot/share/follower_robot/local_setup.sh
+[5.383s] -- Up-to-date: /home/4_fri/bwi_ros2/install/follower_robot/share/follower_robot/local_setup.zsh
+[5.383s] -- Up-to-date: /home/4_fri/bwi_ros2/install/follower_robot/share/follower_robot/local_setup.dsv
+[5.383s] -- Installing: /home/4_fri/bwi_ros2/install/follower_robot/share/follower_robot/package.dsv
+[5.383s] -- Up-to-date: /home/4_fri/bwi_ros2/install/follower_robot/share/ament_index/resource_index/packages/follower_robot
+[5.383s] -- Up-to-date: /home/4_fri/bwi_ros2/install/follower_robot/share/follower_robot/cmake/follower_robotConfig.cmake
+[5.383s] -- Up-to-date: /home/4_fri/bwi_ros2/install/follower_robot/share/follower_robot/cmake/follower_robotConfig-version.cmake
+[5.383s] -- Up-to-date: /home/4_fri/bwi_ros2/install/follower_robot/share/follower_robot/package.xml
+[5.385s] Invoked command in '/home/4_fri/bwi_ros2/build/follower_robot' returned '0': AMENT_PREFIX_PATH=/home/4_fri/bwi_ros2/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/4_fri/bwi_ros2/install/apriltag_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/4_fri/bwi_ros2/install/apriltag_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/4_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/follower_robot

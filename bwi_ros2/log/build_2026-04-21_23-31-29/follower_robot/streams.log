@@ -1,0 +1,17 @@
+[0.037s] Invoking command in '/home/4_fri/bwi_ros2/build/follower_robot': AMENT_PREFIX_PATH=/home/4_fri/bwi_ros2/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/4_fri/bwi_ros2/install/apriltag_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/4_fri/bwi_ros2/install/apriltag_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/4_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/follower_robot -- -j12 -l12
+[0.109s] [35m[1mConsolidate compiler generated dependencies of target follower_robot[0m
+[0.146s] [ 25%] [32mBuilding CXX object CMakeFiles/follower_robot.dir/src/FollowerRobotNode.cpp.o[0m
+[0.150s] [ 50%] [32mBuilding CXX object CMakeFiles/follower_robot.dir/src/follower_robot.cpp.o[0m
+[3.176s] [01m[K/home/4_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/src/FollowerRobotNode.cpp:[m[K In constructor ‘[01m[KFollowerRobotNode::FollowerRobotNode()[m[K’:
+[3.176s] [01m[K/home/4_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/src/FollowerRobotNode.cpp:21:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::function<void()> MoveToTarget::on_goal_reached_[m[K’ is protected within this context
+[3.176s]    21 |     move_to_target_.[01;31m[Kon_goal_reached_[m[K = std::bind(
+[3.176s]       |                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[3.176s] In file included from [01m[K/home/4_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/include/follower_robot/FollowerRobotNode.h:4[m[K,
+[3.177s]                  from [01m[K/home/4_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/src/FollowerRobotNode.cpp:1[m[K:
+[3.177s] [01m[K/home/4_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/include/follower_robot/MoveToTarget.h:39:27:[m[K [01;36m[Knote: [m[Kdeclared protected here
+[3.177s]    39 |     std::function<void()> [01;36m[Kon_goal_reached_[m[K;
+[3.177s]       |                           [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[4.093s] gmake[2]: *** [CMakeFiles/follower_robot.dir/build.make:76: CMakeFiles/follower_robot.dir/src/FollowerRobotNode.cpp.o] Error 1
+[4.093s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/follower_robot.dir/all] Error 2
+[4.094s] gmake: *** [Makefile:146: all] Error 2
+[4.095s] Invoked command in '/home/4_fri/bwi_ros2/build/follower_robot' returned '2': AMENT_PREFIX_PATH=/home/4_fri/bwi_ros2/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/4_fri/bwi_ros2/install/apriltag_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/4_fri/bwi_ros2/install/apriltag_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/4_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/follower_robot -- -j12 -l12

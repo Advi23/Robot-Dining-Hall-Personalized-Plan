@@ -1,0 +1,36 @@
+[0.037s] Invoking command in '/home/4_fri/bwi_ros2/build/velodyne_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/velodyne_laserscan -- -j12 -l12
+[0.767s] [35m[1mConsolidate compiler generated dependencies of target velodyne_laserscan[0m
+[0.767s] [ 50%] Built target velodyne_laserscan
+[0.767s] [35m[1mConsolidate compiler generated dependencies of target velodyne_laserscan_node[0m
+[0.767s] [100%] Built target velodyne_laserscan_node
+[0.781s] Invoked command in '/home/4_fri/bwi_ros2/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/velodyne_laserscan -- -j12 -l12
+[0.783s] Invoking command in '/home/4_fri/bwi_ros2/build/velodyne_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/velodyne_laserscan
+[0.820s] -- Install configuration: ""
+[0.820s] -- Installing: /home/4_fri/bwi_ros2/install/velodyne_laserscan/lib/libvelodyne_laserscan.so
+[0.820s] -- Set runtime path of "/home/4_fri/bwi_ros2/install/velodyne_laserscan/lib/libvelodyne_laserscan.so" to ""
+[0.820s] -- Installing: /home/4_fri/bwi_ros2/install/velodyne_laserscan/lib/velodyne_laserscan/velodyne_laserscan_node
+[0.820s] -- Set runtime path of "/home/4_fri/bwi_ros2/install/velodyne_laserscan/lib/velodyne_laserscan/velodyne_laserscan_node" to ""
+[0.820s] -- Installing: /home/4_fri/bwi_ros2/install/velodyne_laserscan/include/velodyne_laserscan
+[0.820s] -- Installing: /home/4_fri/bwi_ros2/install/velodyne_laserscan/include/velodyne_laserscan/velodyne_laserscan.hpp
+[0.820s] -- Installing: /home/4_fri/bwi_ros2/install/velodyne_laserscan/share/velodyne_laserscan/config
+[0.820s] -- Installing: /home/4_fri/bwi_ros2/install/velodyne_laserscan/share/velodyne_laserscan/config/default-velodyne_laserscan_node-params.yaml
+[0.820s] -- Installing: /home/4_fri/bwi_ros2/install/velodyne_laserscan/share/velodyne_laserscan/launch
+[0.821s] -- Installing: /home/4_fri/bwi_ros2/install/velodyne_laserscan/share/velodyne_laserscan/launch/velodyne_laserscan_node-launch.py
+[0.821s] -- Installing: /home/4_fri/bwi_ros2/install/velodyne_laserscan/share/velodyne_laserscan/launch/velodyne_laserscan_node-composed-launch.py
+[0.821s] -- Installing: /home/4_fri/bwi_ros2/install/velodyne_laserscan/share/ament_index/resource_index/package_run_dependencies/velodyne_laserscan
+[0.821s] -- Installing: /home/4_fri/bwi_ros2/install/velodyne_laserscan/share/ament_index/resource_index/parent_prefix_path/velodyne_laserscan
+[0.821s] -- Installing: /home/4_fri/bwi_ros2/install/velodyne_laserscan/share/velodyne_laserscan/environment/ament_prefix_path.sh
+[0.821s] -- Installing: /home/4_fri/bwi_ros2/install/velodyne_laserscan/share/velodyne_laserscan/environment/ament_prefix_path.dsv
+[0.821s] -- Installing: /home/4_fri/bwi_ros2/install/velodyne_laserscan/share/velodyne_laserscan/environment/path.sh
+[0.821s] -- Installing: /home/4_fri/bwi_ros2/install/velodyne_laserscan/share/velodyne_laserscan/environment/path.dsv
+[0.821s] -- Installing: /home/4_fri/bwi_ros2/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.bash
+[0.821s] -- Installing: /home/4_fri/bwi_ros2/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.sh
+[0.821s] -- Installing: /home/4_fri/bwi_ros2/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.zsh
+[0.821s] -- Installing: /home/4_fri/bwi_ros2/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.dsv
+[0.822s] -- Installing: /home/4_fri/bwi_ros2/install/velodyne_laserscan/share/velodyne_laserscan/package.dsv
+[0.822s] -- Installing: /home/4_fri/bwi_ros2/install/velodyne_laserscan/share/ament_index/resource_index/packages/velodyne_laserscan
+[0.822s] -- Installing: /home/4_fri/bwi_ros2/install/velodyne_laserscan/share/ament_index/resource_index/rclcpp_components/velodyne_laserscan
+[0.822s] -- Installing: /home/4_fri/bwi_ros2/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanConfig.cmake
+[0.822s] -- Installing: /home/4_fri/bwi_ros2/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanConfig-version.cmake
+[0.823s] -- Installing: /home/4_fri/bwi_ros2/install/velodyne_laserscan/share/velodyne_laserscan/package.xml
+[0.918s] Invoked command in '/home/4_fri/bwi_ros2/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/velodyne_laserscan

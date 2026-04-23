@@ -1,0 +1,4 @@
+msg/SegwayStatus.idl
+msg/SegwayStatus.msg
+msg/SegwayStatusStamped.idl
+msg/SegwayStatusStamped.msg

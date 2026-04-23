@@ -1,0 +1,16 @@
+[01m[K/home/4_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/src/FollowerRobotNode.cpp:[m[K In constructor ‘[01m[KFollowerRobotNode::FollowerRobotNode()[m[K’:
+[01m[K/home/4_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/src/FollowerRobotNode.cpp:21:5:[m[K [01;31m[Kerror: [m[K‘[01m[KdiningPath[m[K’ was not declared in this scope
+   21 |     [01;31m[KdiningPath[m[K();
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/4_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/src/FollowerRobotNode.cpp:[m[K At global scope:
+[01m[K/home/4_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/src/FollowerRobotNode.cpp:27:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid FollowerRobotNode::diningPath()[m[K’
+   27 | void [01;31m[KFollowerRobotNode[m[K::diningPath()
+      |      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/4_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/src/FollowerRobotNode.cpp:27:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid FollowerRobotNode::diningPath()[m[K’
+In file included from [01m[K/home/4_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/src/FollowerRobotNode.cpp:1[m[K:
+[01m[K/home/4_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/include/follower_robot/FollowerRobotNode.h:19:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass FollowerRobotNode[m[K’ defined here
+   19 | class [01;36m[KFollowerRobotNode[m[K : public rclcpp::Node {
+      |       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/follower_robot.dir/build.make:76: CMakeFiles/follower_robot.dir/src/FollowerRobotNode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/follower_robot.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

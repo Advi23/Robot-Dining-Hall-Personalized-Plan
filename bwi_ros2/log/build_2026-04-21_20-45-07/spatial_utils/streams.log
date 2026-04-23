@@ -1,0 +1,29 @@
+[0.056s] Invoking command in '/home/4_fri/bwi_ros2/build/spatial_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/4_fri/bwi_ros2/install/scan_prox_filter:/home/4_fri/bwi_ros2/install/scan_filter:/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/spatial_utils -- -j12 -l12
+[0.714s] [100%] Built target spatial_utils
+[0.726s] Invoked command in '/home/4_fri/bwi_ros2/build/spatial_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/4_fri/bwi_ros2/install/scan_prox_filter:/home/4_fri/bwi_ros2/install/scan_filter:/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/spatial_utils -- -j12 -l12
+[0.727s] Invoking command in '/home/4_fri/bwi_ros2/build/spatial_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/4_fri/bwi_ros2/install/scan_prox_filter:/home/4_fri/bwi_ros2/install/scan_filter:/opt/ros/humble /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/spatial_utils
+[0.759s] -- Install configuration: ""
+[0.759s] -- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/lib/libspatial_utils.a
+[0.760s] -- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/include
+[0.760s] -- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/include/spatial_utils
+[0.760s] -- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/include/spatial_utils/transform_util.h
+[0.760s] -- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/spatial_utils/environment/library_path.sh
+[0.760s] -- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/spatial_utils/environment/library_path.dsv
+[0.760s] -- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/ament_index/resource_index/package_run_dependencies/spatial_utils
+[0.760s] -- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/ament_index/resource_index/parent_prefix_path/spatial_utils
+[0.760s] -- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/spatial_utils/environment/ament_prefix_path.sh
+[0.760s] -- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/spatial_utils/environment/ament_prefix_path.dsv
+[0.760s] -- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/spatial_utils/environment/path.sh
+[0.761s] -- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/spatial_utils/environment/path.dsv
+[0.761s] -- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/spatial_utils/local_setup.bash
+[0.761s] -- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/spatial_utils/local_setup.sh
+[0.761s] -- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/spatial_utils/local_setup.zsh
+[0.761s] -- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/spatial_utils/local_setup.dsv
+[0.761s] -- Installing: /home/4_fri/bwi_ros2/install/spatial_utils/share/spatial_utils/package.dsv
+[0.761s] -- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/ament_index/resource_index/packages/spatial_utils
+[0.761s] -- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/spatial_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.761s] -- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/spatial_utils/cmake/ament_cmake_export_libraries-extras.cmake
+[0.761s] -- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/spatial_utils/cmake/spatial_utilsConfig.cmake
+[0.761s] -- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/spatial_utils/cmake/spatial_utilsConfig-version.cmake
+[0.761s] -- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/spatial_utils/package.xml
+[0.833s] Invoked command in '/home/4_fri/bwi_ros2/build/spatial_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/4_fri/bwi_ros2/install/scan_prox_filter:/home/4_fri/bwi_ros2/install/scan_filter:/opt/ros/humble /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/spatial_utils

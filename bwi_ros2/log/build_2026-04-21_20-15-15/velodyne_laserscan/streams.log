@@ -1,0 +1,57 @@
+[0.036s] Invoking command in '/home/4_fri/bwi_ros2/build/velodyne_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/lidar/velodyne/velodyne_laserscan -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/velodyne_laserscan
+[0.948s] -- The C compiler identification is GNU 11.4.0
+[0.948s] -- The CXX compiler identification is GNU 11.4.0
+[0.949s] -- Detecting C compiler ABI info
+[0.949s] -- Detecting C compiler ABI info - done
+[0.949s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.949s] -- Detecting C compile features
+[0.949s] -- Detecting C compile features - done
+[0.949s] -- Detecting CXX compiler ABI info
+[0.949s] -- Detecting CXX compiler ABI info - done
+[0.949s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.949s] -- Detecting CXX compile features
+[0.949s] -- Detecting CXX compile features - done
+[0.949s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.950s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.951s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.951s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.951s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.951s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.951s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.951s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.967s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.973s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.149s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.212s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.284s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.295s] -- Looking for pthread.h
+[1.466s] -- Looking for pthread.h - found
+[1.466s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.599s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.599s] -- Found Threads: TRUE  
+[1.747s] -- Found rclcpp_components: 16.0.14 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.804s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.880s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.036s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.042s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.043s] -- Configured cppcheck include dirs: /home/4_fri/bwi_ros2/src/lidar/velodyne/velodyne_laserscan/include
+[2.043s] -- Configured cppcheck exclude dirs and/or files: 
+[2.047s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.048s] -- Configured cpplint exclude dirs and/or files: 
+[2.048s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.051s] -- Added test 'lint_cmake' to check CMake code style
+[2.061s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.061s] -- Added test 'uncrustify' to check C / C++ code style
+[2.061s] -- Configured uncrustify additional arguments: 
+[2.061s] -- Added test 'xmllint' to check XML markup files
+[2.063s] -- Configuring done
+[2.103s] -- Generating done
+[2.114s] -- Build files have been written to: /home/4_fri/bwi_ros2/build/velodyne_laserscan
+[2.152s] Invoked command in '/home/4_fri/bwi_ros2/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/lidar/velodyne/velodyne_laserscan -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/velodyne_laserscan
+[2.153s] Invoking command in '/home/4_fri/bwi_ros2/build/velodyne_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/velodyne_laserscan -- -j12 -l12
+[2.277s] [ 25%] [32mBuilding CXX object CMakeFiles/velodyne_laserscan.dir/src/velodyne_laserscan.cpp.o[0m
+[23.855s] [ 50%] [32m[1mLinking CXX shared library libvelodyne_laserscan.so[0m
+[24.999s] [ 50%] Built target velodyne_laserscan
+[25.066s] [ 75%] [32mBuilding CXX object CMakeFiles/velodyne_laserscan_node.dir/src/node.cpp.o[0m
+[30.065s] [100%] [32m[1mLinking CXX executable velodyne_laserscan_node[0m
+[30.482s] [100%] Built target velodyne_laserscan_node

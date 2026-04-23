@@ -1,0 +1,10 @@
+[01m[K/home/4_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/src/FollowerRobotNode.cpp:[m[K In constructor ‘[01m[KFollowerRobotNode::FollowerRobotNode(double, double)[m[K’:
+[01m[K/home/4_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/src/FollowerRobotNode.cpp:21:5:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KFollowerRobotNode[m[K’ does not have any field named ‘[01m[Kfollow_distance_[m[K’
+   21 |     [01;31m[Kfollow_distance_[m[K(follow_distance),
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/4_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/src/FollowerRobotNode.cpp:22:5:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KFollowerRobotNode[m[K’ does not have any field named ‘[01m[Ktag_motion_threshold_[m[K’
+   22 |     [01;31m[Ktag_motion_threshold_[m[K(tag_motion_threshold),
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/follower_robot.dir/build.make:76: CMakeFiles/follower_robot.dir/src/FollowerRobotNode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/follower_robot.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

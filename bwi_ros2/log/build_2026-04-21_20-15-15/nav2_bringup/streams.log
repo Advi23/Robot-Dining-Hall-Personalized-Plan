@@ -1,0 +1,126 @@
+[0.033s] Invoking command in '/home/4_fri/bwi_ros2/build/nav2_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/bwi_ros2_common/nav2_bringup -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/nav2_bringup
+[0.951s] -- The C compiler identification is GNU 11.4.0
+[0.951s] -- The CXX compiler identification is GNU 11.4.0
+[0.951s] -- Detecting C compiler ABI info
+[0.951s] -- Detecting C compiler ABI info - done
+[0.952s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.952s] -- Detecting C compile features
+[0.952s] -- Detecting C compile features - done
+[0.952s] -- Detecting CXX compiler ABI info
+[0.952s] -- Detecting CXX compiler ABI info - done
+[0.952s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.952s] -- Detecting CXX compile features
+[0.952s] -- Detecting CXX compile features - done
+[0.952s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.952s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.952s] -- Found nav2_common: 1.1.18 (/opt/ros/humble/share/nav2_common/cmake)
+[0.952s] -- Found navigation2: 1.1.18 (/opt/ros/humble/share/navigation2/cmake)
+[0.952s] -- Setting build type to Release as none was specified.
+[0.953s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.953s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.953s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.953s] -- Added test 'lint_cmake' to check CMake code style
+[0.953s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.953s] -- Added test 'xmllint' to check XML markup files
+[0.955s] -- Configuring done
+[0.955s] -- Generating done
+[0.955s] -- Build files have been written to: /home/4_fri/bwi_ros2/build/nav2_bringup
+[0.964s] Invoked command in '/home/4_fri/bwi_ros2/build/nav2_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/bwi_ros2_common/nav2_bringup -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/nav2_bringup
+[0.965s] Invoking command in '/home/4_fri/bwi_ros2/build/nav2_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/nav2_bringup -- -j12 -l12
+[1.060s] Invoked command in '/home/4_fri/bwi_ros2/build/nav2_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/nav2_bringup -- -j12 -l12
+[1.061s] Invoking command in '/home/4_fri/bwi_ros2/build/nav2_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/nav2_bringup
+[2.145s] -- Install configuration: "Release"
+[2.145s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/launch
+[2.146s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/launch/cloned_multi_tb3_simulation_launch.py
+[2.146s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/launch/rviz_launch.py
+[2.146s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/launch/slam_launch.py
+[2.146s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/launch/navigation_launch.py
+[2.146s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/launch/augmented_map.py
+[2.146s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/launch/unique_multi_tb3_simulation_launch.py
+[2.146s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/launch/localization_launch.py
+[2.146s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/launch/bringup_launch.py
+[2.146s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/launch/tb3_simulation_launch.py
+[2.146s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps
+[2.146s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/turtlebot3_world.pgm
+[2.146s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/2
+[2.147s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/2/occ
+[2.147s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/2/occ/ahg_full_closed.pgm
+[2.147s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/2/occ/ahg_full_new.pgm
+[2.147s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/2/occ/doors_map.yaml
+[2.147s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/2/occ/ahg_full.yaml
+[2.147s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/2/occ/new_ahg_full.pgm
+[2.147s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/2/occ/doors_map.pgm
+[2.147s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/2/occ/ahg_full_new.yaml
+[2.147s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/2/occ/ahg_full.pgm
+[2.147s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/2/occ/ahg_full_open.pgm
+[2.147s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/2/occ/ahg_full_closed.yaml
+[2.147s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/2/occ/objects.yaml
+[2.148s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/2/occ/ahg_full_noelevator.pgm
+[2.148s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/2/occ/doors.yaml
+[2.148s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/2/occ/connectivity.yaml
+[2.148s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/2/occ/ahg.xcf
+[2.152s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/2/occ/ahg_full_open.yaml
+[2.152s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/2/occ/locations.pgm
+[2.152s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/2/occ/new_ahg_full.yaml
+[2.152s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/2/occ/locations.yaml
+[2.153s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/2/occ/rooms
+[2.153s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/2/occ/rooms/ahg_202.yaml
+[2.153s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/2/occ/rooms/ahg_0.yaml
+[2.153s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/2/occ/rooms/ahg_202.pgm
+[2.153s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/2/occ/rooms/ahg_0.pgm
+[2.153s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/2/occ/rooms/ahg_304.pgm
+[2.153s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/2/occ/rooms/ahg_304.yaml
+[2.153s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/turtlebot3_world.yaml
+[2.153s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/1
+[2.153s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/1/occ
+[2.153s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/1/occ/cropped.pgm
+[2.153s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/1/occ/ahg_1_full.pgm
+[2.154s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/1/occ/ahg_1_full.xcf
+[2.154s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/1/occ/ahg_1_full.yaml
+[2.154s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/1/occ/doors_map.yaml
+[2.154s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/1/occ/ahg_1.xcf
+[2.154s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/1/occ/doors_map.pgm
+[2.154s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/1/occ/ahg_1_closed.pgm
+[2.154s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/1/occ/objects.yaml
+[2.163s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/1/occ/doors.yaml
+[2.163s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/1/occ/connectivity.yaml
+[2.163s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/1/occ/cropped.yaml
+[2.163s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/1/occ/locations.pgm
+[2.164s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/1/occ/locations.yaml
+[2.164s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/1/occ/ahg_1_closed.yaml
+[2.164s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/1/occ/rooms
+[2.164s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/1/occ/rooms/ahg_1_0.pgm
+[2.164s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/1/occ/rooms/ahg_1_220.yaml
+[2.164s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/1/occ/rooms/ahg_1_220.pgm
+[2.164s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/maps/1/occ/rooms/ahg_1_0.yaml
+[2.164s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/rviz
+[2.164s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/rviz/nav2_namespaced_view.rviz
+[2.164s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/rviz/nav2_default_view.rviz
+[2.164s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/worlds
+[2.165s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/worlds/waffle.model
+[2.165s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/worlds/world_only.model
+[2.165s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/params
+[2.165s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/params/old.yaml
+[2.165s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/params/working_localization.yaml
+[2.165s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/params/nav2_multirobot_params_1.yaml
+[2.165s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/params/nav2_multirobot_params_2.yaml
+[2.165s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/params/nav2_params.yaml
+[2.165s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/params/nav2_multirobot_params_all.yaml
+[2.165s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/urdf
+[2.165s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/urdf/turtlebot3_waffle.urdf
+[2.166s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/ament_index/resource_index/package_run_dependencies/nav2_bringup
+[2.166s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/ament_index/resource_index/parent_prefix_path/nav2_bringup
+[2.166s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/environment/ament_prefix_path.sh
+[2.166s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/environment/ament_prefix_path.dsv
+[2.166s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/environment/path.sh
+[2.169s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/environment/path.dsv
+[2.169s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/local_setup.bash
+[2.169s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/local_setup.sh
+[2.169s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/local_setup.zsh
+[2.169s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/local_setup.dsv
+[2.170s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/package.dsv
+[2.170s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/ament_index/resource_index/packages/nav2_bringup
+[2.170s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/cmake/nav2_bringupConfig.cmake
+[2.170s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/cmake/nav2_bringupConfig-version.cmake
+[2.170s] -- Installing: /home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/package.xml
+[2.240s] Invoked command in '/home/4_fri/bwi_ros2/build/nav2_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/nav2_bringup

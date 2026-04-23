@@ -1,0 +1,164 @@
+[0.052s] Invoking command in '/home/4_fri/bwi_ros2/build/apriltag_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/apriltag_msgs -- -j12 -l12
+[0.713s] [ 10%] Built target apriltag_msgs__rosidl_generator_c
+[0.714s] [ 12%] Built target apriltag_msgs__cpp
+[0.714s] [ 23%] Built target apriltag_msgs__rosidl_typesupport_introspection_c
+[0.714s] [ 23%] Built target ament_cmake_python_copy_apriltag_msgs
+[0.714s] [ 33%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c
+[0.714s] [ 43%] Built target apriltag_msgs__rosidl_typesupport_introspection_cpp
+[0.714s] [ 53%] Built target apriltag_msgs__rosidl_typesupport_c
+[0.714s] [ 64%] Built target apriltag_msgs__rosidl_typesupport_cpp
+[0.714s] [ 74%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_cpp
+[0.714s] [ 74%] Built target apriltag_msgs
+[0.714s] [ 76%] Built target apriltag_msgs__py
+[0.714s] [ 84%] Built target apriltag_msgs__rosidl_generator_py
+[0.714s] [ 89%] Built target apriltag_msgs__rosidl_typesupport_introspection_c__pyext
+[0.714s] [ 94%] Built target apriltag_msgs__rosidl_typesupport_c__pyext
+[0.714s] [100%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.715s] running egg_info
+[0.715s] writing apriltag_msgs.egg-info/PKG-INFO
+[0.715s] writing dependency_links to apriltag_msgs.egg-info/dependency_links.txt
+[0.715s] writing top-level names to apriltag_msgs.egg-info/top_level.txt
+[0.715s] reading manifest file 'apriltag_msgs.egg-info/SOURCES.txt'
+[0.715s] writing manifest file 'apriltag_msgs.egg-info/SOURCES.txt'
+[0.715s] [100%] Built target ament_cmake_python_build_apriltag_msgs_egg
+[0.743s] Invoked command in '/home/4_fri/bwi_ros2/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/apriltag_msgs -- -j12 -l12
+[0.745s] Invoking command in '/home/4_fri/bwi_ros2/build/apriltag_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/apriltag_msgs
+[0.797s] -- Install configuration: ""
+[0.797s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/ament_index/resource_index/rosidl_interfaces/apriltag_msgs
+[0.797s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[0.797s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[0.797s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.h
+[0.797s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection.h
+[0.797s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[0.797s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__struct.h
+[0.798s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.h
+[0.798s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.h
+[0.798s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__functions.h
+[0.798s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.h
+[0.798s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__functions.c
+[0.798s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__functions.c
+[0.798s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__functions.h
+[0.798s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.798s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/environment/library_path.sh
+[0.799s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/environment/library_path.dsv
+[0.799s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_c.so
+[0.799s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[0.799s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[0.801s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[0.801s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_c.h
+[0.801s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_c.h
+[0.801s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.801s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_c.so
+[0.801s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[0.801s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[0.802s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.802s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp
+[0.802s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection.hpp
+[0.802s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[0.802s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__builder.hpp
+[0.802s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__traits.hpp
+[0.802s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__struct.hpp
+[0.802s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.hpp
+[0.802s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp
+[0.802s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__builder.hpp
+[0.802s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.hpp
+[0.802s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__traits.hpp
+[0.802s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[0.802s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[0.802s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[0.802s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_cpp.hpp
+[0.802s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_cpp.hpp
+[0.803s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/dds_fastrtps
+[0.803s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.803s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.803s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[0.803s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[0.803s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.803s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[0.803s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_introspection_c.h
+[0.803s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.c
+[0.803s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.c
+[0.803s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_c.h
+[0.803s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_c.so
+[0.803s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_c.so
+[0.803s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[0.804s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[0.804s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[0.804s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.cpp
+[0.804s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.cpp
+[0.804s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_introspection_cpp.hpp
+[0.804s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_cpp.hpp
+[0.804s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_cpp.so
+[0.804s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_cpp.so
+[0.804s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/environment/pythonpath.sh
+[0.805s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/environment/pythonpath.dsv
+[0.805s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-0.0.0-py3.10.egg-info
+[0.805s] -- Installing: /home/4_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.805s] -- Installing: /home/4_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[0.805s] -- Installing: /home/4_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[0.805s] -- Installing: /home/4_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.805s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs
+[0.806s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg
+[0.806s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection.py
+[0.806s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_s.c
+[0.806s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/__init__.py
+[0.806s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_array.py
+[0.806s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_array_s.c
+[0.807s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_c.c
+[0.807s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.807s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/__init__.py
+[0.807s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.807s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/libapriltag_msgs__rosidl_generator_py.so
+[0.807s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.808s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.808s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.809s] Listing '/home/4_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs'...
+[0.809s] Listing '/home/4_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg'...
+[0.811s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.812s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.812s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.813s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_py.so
+[0.813s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetectionArray.idl
+[0.813s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetection.idl
+[0.813s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetectionArray.msg
+[0.814s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetection.msg
+[0.814s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/ament_index/resource_index/package_run_dependencies/apriltag_msgs
+[0.814s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/ament_index/resource_index/parent_prefix_path/apriltag_msgs
+[0.814s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/environment/ament_prefix_path.sh
+[0.814s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/environment/ament_prefix_path.dsv
+[0.814s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/environment/path.sh
+[0.814s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/environment/path.dsv
+[0.814s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/local_setup.bash
+[0.814s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/local_setup.sh
+[0.814s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/local_setup.zsh
+[0.814s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/local_setup.dsv
+[0.814s] -- Installing: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/package.dsv
+[0.814s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/ament_index/resource_index/packages/apriltag_msgs
+[0.814s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cExport.cmake
+[0.814s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.814s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.814s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.815s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cppExport.cmake
+[0.815s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.815s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.815s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.815s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.815s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cExport.cmake
+[0.815s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.815s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.815s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.815s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cppExport.cmake
+[0.815s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.815s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_pyExport.cmake
+[0.815s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_pyExport-noconfig.cmake
+[0.816s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake-extras.cmake
+[0.816s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.816s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.816s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.816s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.816s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.816s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.816s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgsConfig.cmake
+[0.816s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgsConfig-version.cmake
+[0.816s] -- Up-to-date: /home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/package.xml
+[0.975s] Invoked command in '/home/4_fri/bwi_ros2/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/apriltag_msgs

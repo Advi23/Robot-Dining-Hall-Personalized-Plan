@@ -1,0 +1,61 @@
+[0.037s] Invoking command in '/home/4_fri/bwi_ros2/build/libsegwayrmp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/libsegwayrmp/libsegwayrmp -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/libsegwayrmp
+[0.954s] [0m-- Building libsegwayrmp with serial support[0m
+[0.955s] -- The CXX compiler identification is GNU 11.4.0
+[0.955s] -- Detecting CXX compiler ABI info
+[0.955s] -- Detecting CXX compiler ABI info - done
+[0.955s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.955s] -- Detecting CXX compile features
+[0.955s] -- Detecting CXX compile features - done
+[0.956s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system thread 
+[0.956s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.956s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.970s] -- Configuring done
+[0.980s] -- Generating done
+[0.980s] -- Build files have been written to: /home/4_fri/bwi_ros2/build/libsegwayrmp
+[1.003s] Invoked command in '/home/4_fri/bwi_ros2/build/libsegwayrmp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/libsegwayrmp/libsegwayrmp -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/libsegwayrmp
+[1.004s] Invoking command in '/home/4_fri/bwi_ros2/build/libsegwayrmp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/libsegwayrmp -- -j12 -l12
+[1.065s] [ 40%] [32mBuilding CXX object CMakeFiles/libsegwayrmp.dir/src/segwayrmp.cc.o[0m
+[1.065s] [ 40%] [32mBuilding CXX object CMakeFiles/libsegwayrmp.dir/src/impl/rmp_io.cc.o[0m
+[1.072s] [ 60%] [32mBuilding CXX object CMakeFiles/libsegwayrmp.dir/src/impl/rmp_serial.cc.o[0m
+[1.072s] [ 80%] [32mBuilding CXX object CMakeFiles/libsegwayrmp.dir/src/impl/rmp_ftd2xx.cc.o[0m
+[12.659s] [100%] [32m[1mLinking CXX shared library /home/4_fri/bwi_ros2/src/libsegwayrmp/libsegwayrmp/lib/liblibsegwayrmp.so[0m
+[13.038s] [100%] Built target libsegwayrmp
+[13.062s] Invoked command in '/home/4_fri/bwi_ros2/build/libsegwayrmp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/libsegwayrmp -- -j12 -l12
+[13.062s] Invoking command in '/home/4_fri/bwi_ros2/build/libsegwayrmp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/libsegwayrmp
+[13.073s] -- Install configuration: "RELWITHDEBINFO"
+[13.073s] -- Installing: /home/4_fri/bwi_ros2/install/libsegwayrmp/lib/liblibsegwayrmp.so
+[13.079s] -- Installing: /home/4_fri/bwi_ros2/install/libsegwayrmp/include/libsegwayrmp/segwayrmp.h
+[13.081s] -- Installing: /home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/libsegwayrmpConfig.cmake
+[13.081s] -- Installing: /home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/package.xml
+[13.082s] -- Installing: /home/4_fri/bwi_ros2/install/libsegwayrmp/lib/libftd2xx.a
+[13.082s] -- Installing: /home/4_fri/bwi_ros2/install/libsegwayrmp/lib/pkgconfig/libsegwayrmp.pc
+[13.085s] -- Up-to-date: /home/4_fri/bwi_ros2/install/libsegwayrmp/lib/liblibsegwayrmp.so
+[13.085s] -- Up-to-date: /home/4_fri/bwi_ros2/install/libsegwayrmp/include
+[13.085s] -- Up-to-date: /home/4_fri/bwi_ros2/install/libsegwayrmp/include/libsegwayrmp
+[13.085s] -- Up-to-date: /home/4_fri/bwi_ros2/install/libsegwayrmp/include/libsegwayrmp/segwayrmp.h
+[13.085s] -- Installing: /home/4_fri/bwi_ros2/install/libsegwayrmp/include/libsegwayrmp/impl
+[13.085s] -- Installing: /home/4_fri/bwi_ros2/install/libsegwayrmp/include/libsegwayrmp/impl/rmp_serial.h
+[13.085s] -- Installing: /home/4_fri/bwi_ros2/install/libsegwayrmp/include/libsegwayrmp/impl/rmp_ftd2xx.h
+[13.085s] -- Installing: /home/4_fri/bwi_ros2/install/libsegwayrmp/include/libsegwayrmp/impl/rmp_io.h
+[13.085s] -- Installing: /home/4_fri/bwi_ros2/install/libsegwayrmp/include/libsegwayrmp/gui
+[13.085s] -- Installing: /home/4_fri/bwi_ros2/install/libsegwayrmp/include/libsegwayrmp/gui/segwayrmp_gui.ui
+[13.085s] -- Installing: /home/4_fri/bwi_ros2/install/libsegwayrmp/include/libsegwayrmp/gui/segwayrmp_gui.h
+[13.086s] -- Installing: /home/4_fri/bwi_ros2/install/libsegwayrmp/lib/cmake/libsegwayrmp/libsegwayrmpTargets.cmake
+[13.086s] -- Installing: /home/4_fri/bwi_ros2/install/libsegwayrmp/lib/cmake/libsegwayrmp/libsegwayrmpTargets-relwithdebinfo.cmake
+[13.086s] -- Installing: /home/4_fri/bwi_ros2/install/libsegwayrmp/share/ament_index/resource_index/package_run_dependencies/libsegwayrmp
+[13.086s] -- Installing: /home/4_fri/bwi_ros2/install/libsegwayrmp/share/ament_index/resource_index/parent_prefix_path/libsegwayrmp
+[13.086s] -- Installing: /home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/environment/ament_prefix_path.sh
+[13.086s] -- Installing: /home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/environment/ament_prefix_path.dsv
+[13.086s] -- Installing: /home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/environment/path.sh
+[13.086s] -- Installing: /home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/environment/path.dsv
+[13.086s] -- Installing: /home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/local_setup.bash
+[13.086s] -- Installing: /home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/local_setup.sh
+[13.086s] -- Installing: /home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/local_setup.zsh
+[13.086s] -- Installing: /home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/local_setup.dsv
+[13.086s] -- Installing: /home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/package.dsv
+[13.086s] -- Installing: /home/4_fri/bwi_ros2/install/libsegwayrmp/share/ament_index/resource_index/packages/libsegwayrmp
+[13.086s] -- Installing: /home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.086s] -- Installing: /home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/cmake/libsegwayrmpConfig.cmake
+[13.087s] -- Installing: /home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/cmake/libsegwayrmpConfig-version.cmake
+[13.087s] -- Up-to-date: /home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/package.xml
+[13.106s] Invoked command in '/home/4_fri/bwi_ros2/build/libsegwayrmp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/libsegwayrmp

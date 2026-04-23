@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-566279eedcf1b6a713b5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "segway_rmp_ros2__py",
+					"jsonFile" : "directory-segway_rmp_ros2__py-Debug-2d39f0c97e38d94ce538.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/4_fri/bwi_ros2/build/segway_rmp_ros2/segway_rmp_ros2__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "segway_rmp_ros2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_segway_rmp_ros2_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_segway_rmp_ros2_egg-Debug-a1365c9ae2e83c4f3da9.json",
+					"name" : "ament_cmake_python_build_segway_rmp_ros2_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_segway_rmp_ros2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_segway_rmp_ros2-Debug-e77656b9288e6a5d28cb.json",
+					"name" : "ament_cmake_python_copy_segway_rmp_ros2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "segway_rmp_node_ros2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-segway_rmp_node_ros2-Debug-4467cb05857892fb128c.json",
+					"name" : "segway_rmp_node_ros2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "segway_rmp_ros2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-segway_rmp_ros2-Debug-5435fb771c2ccc3b75aa.json",
+					"name" : "segway_rmp_ros2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "segway_rmp_ros2__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-segway_rmp_ros2__cpp-Debug-55b8bc557bdc3beb0d1c.json",
+					"name" : "segway_rmp_ros2__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "segway_rmp_ros2__py::@254719ff815c9c0be900",
+					"jsonFile" : "target-segway_rmp_ros2__py-Debug-764efdd09d76443ddb2a.json",
+					"name" : "segway_rmp_ros2__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "segway_rmp_ros2__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-segway_rmp_ros2__rosidl_generator_c-Debug-e3b1f2a333c4b776bc7d.json",
+					"name" : "segway_rmp_ros2__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "segway_rmp_ros2__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-segway_rmp_ros2__rosidl_generator_py-Debug-4043b2e90e3094e71206.json",
+					"name" : "segway_rmp_ros2__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "segway_rmp_ros2__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-segway_rmp_ros2__rosidl_typesupport_c-Debug-8061cde46906bfe3604c.json",
+					"name" : "segway_rmp_ros2__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "segway_rmp_ros2__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-segway_rmp_ros2__rosidl_typesupport_c__pyext-Debug-2338b518cd9993720342.json",
+					"name" : "segway_rmp_ros2__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "segway_rmp_ros2__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-segway_rmp_ros2__rosidl_typesupport_cpp-Debug-787534c2dd28afa26b2e.json",
+					"name" : "segway_rmp_ros2__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "segway_rmp_ros2__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-segway_rmp_ros2__rosidl_typesupport_fastrtps_c-Debug-793b3dff3510fb5f2369.json",
+					"name" : "segway_rmp_ros2__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "segway_rmp_ros2__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-segway_rmp_ros2__rosidl_typesupport_fastrtps_c__pyext-Debug-3fe3011023bbd0ccf760.json",
+					"name" : "segway_rmp_ros2__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "segway_rmp_ros2__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-segway_rmp_ros2__rosidl_typesupport_fastrtps_cpp-Debug-e6570d9c853c1953e8a6.json",
+					"name" : "segway_rmp_ros2__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "segway_rmp_ros2__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-segway_rmp_ros2__rosidl_typesupport_introspection_c-Debug-ccd7ef8f90b759c30064.json",
+					"name" : "segway_rmp_ros2__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "segway_rmp_ros2__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-segway_rmp_ros2__rosidl_typesupport_introspection_c__pyext-Debug-0e7f58f45733e5439836.json",
+					"name" : "segway_rmp_ros2__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "segway_rmp_ros2__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-segway_rmp_ros2__rosidl_typesupport_introspection_cpp-Debug-7b9d487a0176a0abf572.json",
+					"name" : "segway_rmp_ros2__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "segway_rmp_ros2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-segway_rmp_ros2_uninstall-Debug-cdc9251de53f78a6ddc2.json",
+					"name" : "segway_rmp_ros2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-cdcbd249e00a8d847613.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/4_fri/bwi_ros2/build/segway_rmp_ros2",
+		"source" : "/home/4_fri/bwi_ros2/src/segway_rmp_ros2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

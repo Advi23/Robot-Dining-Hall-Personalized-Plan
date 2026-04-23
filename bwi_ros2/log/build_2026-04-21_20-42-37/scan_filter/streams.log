@@ -1,0 +1,21 @@
+[1.206s] Invoking command in '/home/4_fri/bwi_ros2/src/lidar/scan_filter': PYTHONPATH=/home/4_fri/bwi_ros2/build/scan_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/4_fri/bwi_ros2/install/scan_filter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/scan_filter build --build-base /home/4_fri/bwi_ros2/build/scan_filter/build install --record /home/4_fri/bwi_ros2/build/scan_filter/install.log --single-version-externally-managed install_data
+[1.482s] running egg_info
+[1.483s] writing ../../../build/scan_filter/scan_filter.egg-info/PKG-INFO
+[1.483s] writing dependency_links to ../../../build/scan_filter/scan_filter.egg-info/dependency_links.txt
+[1.483s] writing entry points to ../../../build/scan_filter/scan_filter.egg-info/entry_points.txt
+[1.483s] writing requirements to ../../../build/scan_filter/scan_filter.egg-info/requires.txt
+[1.483s] writing top-level names to ../../../build/scan_filter/scan_filter.egg-info/top_level.txt
+[1.485s] reading manifest file '../../../build/scan_filter/scan_filter.egg-info/SOURCES.txt'
+[1.486s] writing manifest file '../../../build/scan_filter/scan_filter.egg-info/SOURCES.txt'
+[1.486s] running build
+[1.486s] running build_py
+[1.486s] running install
+[1.486s] running install_lib
+[1.489s] running install_data
+[1.489s] running install_egg_info
+[1.489s] removing '/home/4_fri/bwi_ros2/install/scan_filter/lib/python3.10/site-packages/scan_filter-0.0.0-py3.10.egg-info' (and everything under it)
+[1.490s] Copying ../../../build/scan_filter/scan_filter.egg-info to /home/4_fri/bwi_ros2/install/scan_filter/lib/python3.10/site-packages/scan_filter-0.0.0-py3.10.egg-info
+[1.490s] running install_scripts
+[1.508s] Installing scan_filter script to /home/4_fri/bwi_ros2/install/scan_filter/lib/scan_filter
+[1.508s] writing list of installed files to '/home/4_fri/bwi_ros2/build/scan_filter/install.log'
+[1.541s] Invoked command in '/home/4_fri/bwi_ros2/src/lidar/scan_filter' returned '0': PYTHONPATH=/home/4_fri/bwi_ros2/build/scan_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/4_fri/bwi_ros2/install/scan_filter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/scan_filter build --build-base /home/4_fri/bwi_ros2/build/scan_filter/build install --record /home/4_fri/bwi_ros2/build/scan_filter/install.log --single-version-externally-managed install_data

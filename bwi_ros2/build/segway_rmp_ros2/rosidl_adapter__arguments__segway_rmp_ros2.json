@@ -1,0 +1,7 @@
+{
+  "package_name": "segway_rmp_ros2",
+  "non_idl_tuples": [
+    "/home/4_fri/bwi_ros2/src/segway_rmp_ros2:msg/SegwayStatus.msg",
+    "/home/4_fri/bwi_ros2/src/segway_rmp_ros2:msg/SegwayStatusStamped.msg"
+  ]
+}

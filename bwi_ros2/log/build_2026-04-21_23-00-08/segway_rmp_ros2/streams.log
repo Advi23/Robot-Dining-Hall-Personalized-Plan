@@ -1,0 +1,168 @@
+[0.098s] Invoking command in '/home/4_fri/bwi_ros2/build/segway_rmp_ros2': AMENT_PREFIX_PATH=/home/4_fri/bwi_ros2/install/libsegwayrmp:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/4_fri/bwi_ros2/install/libsegwayrmp:/opt/ros/humble LD_LIBRARY_PATH=/home/4_fri/bwi_ros2/install/libsegwayrmp/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/4_fri/bwi_ros2/install/libsegwayrmp/lib/pkgconfig /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/segway_rmp_ros2 -- -j12 -l12
+[0.188s] [  2%] Built target segway_rmp_ros2__cpp
+[0.194s] [ 12%] Built target segway_rmp_ros2__rosidl_generator_c
+[0.194s] [ 12%] Built target ament_cmake_python_copy_segway_rmp_ros2
+[0.235s] [ 21%] Built target segway_rmp_ros2__rosidl_typesupport_cpp
+[0.238s] [ 31%] Built target segway_rmp_ros2__rosidl_typesupport_introspection_cpp
+[0.247s] [ 41%] Built target segway_rmp_ros2__rosidl_typesupport_fastrtps_cpp
+[0.253s] [ 51%] Built target segway_rmp_ros2__rosidl_typesupport_introspection_c
+[0.255s] [ 60%] Built target segway_rmp_ros2__rosidl_typesupport_c
+[0.273s] [ 70%] Built target segway_rmp_ros2__rosidl_typesupport_fastrtps_c
+[0.309s] [ 70%] Built target segway_rmp_ros2
+[0.336s] [ 73%] Built target segway_rmp_ros2__py
+[0.356s] [ 78%] Built target segway_rmp_node_ros2
+[0.369s] [ 85%] Built target segway_rmp_ros2__rosidl_generator_py
+[0.410s] [ 90%] Built target segway_rmp_ros2__rosidl_typesupport_introspection_c__pyext
+[0.418s] [ 95%] Built target segway_rmp_ros2__rosidl_typesupport_fastrtps_c__pyext
+[0.418s] [100%] Built target segway_rmp_ros2__rosidl_typesupport_c__pyext
+[0.590s] running egg_info
+[0.590s] writing segway_rmp_ros2.egg-info/PKG-INFO
+[0.590s] writing dependency_links to segway_rmp_ros2.egg-info/dependency_links.txt
+[0.591s] writing top-level names to segway_rmp_ros2.egg-info/top_level.txt
+[0.593s] reading manifest file 'segway_rmp_ros2.egg-info/SOURCES.txt'
+[0.594s] writing manifest file 'segway_rmp_ros2.egg-info/SOURCES.txt'
+[0.624s] [100%] Built target ament_cmake_python_build_segway_rmp_ros2_egg
+[0.633s] Invoked command in '/home/4_fri/bwi_ros2/build/segway_rmp_ros2' returned '0': AMENT_PREFIX_PATH=/home/4_fri/bwi_ros2/install/libsegwayrmp:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/4_fri/bwi_ros2/install/libsegwayrmp:/opt/ros/humble LD_LIBRARY_PATH=/home/4_fri/bwi_ros2/install/libsegwayrmp/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/4_fri/bwi_ros2/install/libsegwayrmp/lib/pkgconfig /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/segway_rmp_ros2 -- -j12 -l12
+[0.634s] Invoking command in '/home/4_fri/bwi_ros2/build/segway_rmp_ros2': AMENT_PREFIX_PATH=/home/4_fri/bwi_ros2/install/libsegwayrmp:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/4_fri/bwi_ros2/install/libsegwayrmp:/opt/ros/humble LD_LIBRARY_PATH=/home/4_fri/bwi_ros2/install/libsegwayrmp/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/4_fri/bwi_ros2/install/libsegwayrmp/lib/pkgconfig /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/segway_rmp_ros2
+[0.640s] -- Install configuration: "Debug"
+[0.641s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/ament_index/resource_index/rosidl_interfaces/segway_rmp_ros2
+[0.641s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2
+[0.641s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg
+[0.641s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/segway_status.h
+[0.641s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/segway_status_stamped.h
+[0.641s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/detail
+[0.641s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/detail/segway_status__type_support.h
+[0.641s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/detail/segway_status__functions.c
+[0.641s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/detail/segway_status__struct.h
+[0.641s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/detail/segway_status_stamped__struct.h
+[0.642s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/detail/segway_status_stamped__type_support.h
+[0.642s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/detail/segway_status__functions.h
+[0.642s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/detail/segway_status_stamped__functions.h
+[0.642s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/detail/segway_status_stamped__functions.c
+[0.642s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/rosidl_generator_c__visibility_control.h
+[0.642s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/environment/library_path.sh
+[0.642s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/environment/library_path.dsv
+[0.642s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/lib/libsegway_rmp_ros2__rosidl_generator_c.so
+[0.643s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2
+[0.643s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg
+[0.643s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/detail
+[0.643s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/detail/segway_status__rosidl_typesupport_fastrtps_c.h
+[0.643s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/detail/segway_status_stamped__rosidl_typesupport_fastrtps_c.h
+[0.643s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.643s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/lib/libsegway_rmp_ros2__rosidl_typesupport_fastrtps_c.so
+[0.643s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2
+[0.643s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg
+[0.644s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.644s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/segway_status.hpp
+[0.644s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/detail
+[0.644s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/detail/segway_status__builder.hpp
+[0.644s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/detail/segway_status_stamped__struct.hpp
+[0.644s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/detail/segway_status_stamped__builder.hpp
+[0.644s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/detail/segway_status_stamped__traits.hpp
+[0.644s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/detail/segway_status__traits.hpp
+[0.644s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/detail/segway_status__type_support.hpp
+[0.644s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/detail/segway_status_stamped__type_support.hpp
+[0.644s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/detail/segway_status__struct.hpp
+[0.644s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/segway_status_stamped.hpp
+[0.645s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2
+[0.645s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg
+[0.645s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/detail
+[0.645s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/detail/segway_status__rosidl_typesupport_fastrtps_cpp.hpp
+[0.645s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/detail/segway_status_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[0.645s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/detail/dds_fastrtps
+[0.645s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.645s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/lib/libsegway_rmp_ros2__rosidl_typesupport_fastrtps_cpp.so
+[0.645s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2
+[0.646s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg
+[0.646s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.646s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/detail
+[0.646s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/detail/segway_status__rosidl_typesupport_introspection_c.h
+[0.646s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/detail/segway_status_stamped__rosidl_typesupport_introspection_c.h
+[0.646s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/detail/segway_status_stamped__type_support.c
+[0.646s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/detail/segway_status__type_support.c
+[0.646s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/lib/libsegway_rmp_ros2__rosidl_typesupport_introspection_c.so
+[0.646s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/lib/libsegway_rmp_ros2__rosidl_typesupport_c.so
+[0.646s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2
+[0.647s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg
+[0.647s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/detail
+[0.647s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/detail/segway_status__type_support.cpp
+[0.647s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/detail/segway_status__rosidl_typesupport_introspection_cpp.hpp
+[0.647s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/detail/segway_status_stamped__rosidl_typesupport_introspection_cpp.hpp
+[0.647s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/include/segway_rmp_ros2/segway_rmp_ros2/msg/detail/segway_status_stamped__type_support.cpp
+[0.647s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/lib/libsegway_rmp_ros2__rosidl_typesupport_introspection_cpp.so
+[0.647s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/lib/libsegway_rmp_ros2__rosidl_typesupport_cpp.so
+[0.647s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/environment/pythonpath.sh
+[0.647s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/environment/pythonpath.dsv
+[0.647s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/local/lib/python3.10/dist-packages/segway_rmp_ros2-0.0.0-py3.10.egg-info
+[0.648s] -- Installing: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/local/lib/python3.10/dist-packages/segway_rmp_ros2-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.648s] -- Installing: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/local/lib/python3.10/dist-packages/segway_rmp_ros2-0.0.0-py3.10.egg-info/top_level.txt
+[0.648s] -- Installing: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/local/lib/python3.10/dist-packages/segway_rmp_ros2-0.0.0-py3.10.egg-info/PKG-INFO
+[0.648s] -- Installing: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/local/lib/python3.10/dist-packages/segway_rmp_ros2-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.648s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/local/lib/python3.10/dist-packages/segway_rmp_ros2
+[0.648s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/local/lib/python3.10/dist-packages/segway_rmp_ros2/msg
+[0.648s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/local/lib/python3.10/dist-packages/segway_rmp_ros2/msg/__init__.py
+[0.648s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/local/lib/python3.10/dist-packages/segway_rmp_ros2/msg/_segway_status.py
+[0.648s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/local/lib/python3.10/dist-packages/segway_rmp_ros2/msg/_segway_status_s.c
+[0.648s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/local/lib/python3.10/dist-packages/segway_rmp_ros2/msg/_segway_status_stamped_s.c
+[0.648s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/local/lib/python3.10/dist-packages/segway_rmp_ros2/msg/_segway_status_stamped.py
+[0.648s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/local/lib/python3.10/dist-packages/segway_rmp_ros2/segway_rmp_ros2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.649s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/local/lib/python3.10/dist-packages/segway_rmp_ros2/__init__.py
+[0.649s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/local/lib/python3.10/dist-packages/segway_rmp_ros2/_segway_rmp_ros2_s.ep.rosidl_typesupport_c.c
+[0.649s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/local/lib/python3.10/dist-packages/segway_rmp_ros2/_segway_rmp_ros2_s.ep.rosidl_typesupport_introspection_c.c
+[0.649s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/local/lib/python3.10/dist-packages/segway_rmp_ros2/segway_rmp_ros2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.649s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/local/lib/python3.10/dist-packages/segway_rmp_ros2/segway_rmp_ros2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.649s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/local/lib/python3.10/dist-packages/segway_rmp_ros2/_segway_rmp_ros2_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.649s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/local/lib/python3.10/dist-packages/segway_rmp_ros2/libsegway_rmp_ros2__rosidl_generator_py.so
+[0.673s] Listing '/home/4_fri/bwi_ros2/install/segway_rmp_ros2/local/lib/python3.10/dist-packages/segway_rmp_ros2'...
+[0.673s] Listing '/home/4_fri/bwi_ros2/install/segway_rmp_ros2/local/lib/python3.10/dist-packages/segway_rmp_ros2/msg'...
+[0.679s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/local/lib/python3.10/dist-packages/segway_rmp_ros2/segway_rmp_ros2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.679s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/local/lib/python3.10/dist-packages/segway_rmp_ros2/segway_rmp_ros2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.680s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/local/lib/python3.10/dist-packages/segway_rmp_ros2/segway_rmp_ros2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.680s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/lib/libsegway_rmp_ros2__rosidl_generator_py.so
+[0.680s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/msg/SegwayStatus.idl
+[0.680s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/msg/SegwayStatusStamped.idl
+[0.680s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/msg/SegwayStatus.msg
+[0.680s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/msg/SegwayStatusStamped.msg
+[0.681s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/lib/segway_rmp_ros2/segway_rmp_node_ros2
+[0.681s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2//launch
+[0.681s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2//launch/segway_rmp_ros2.launch.py
+[0.681s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/ament_index/resource_index/package_run_dependencies/segway_rmp_ros2
+[0.681s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/ament_index/resource_index/parent_prefix_path/segway_rmp_ros2
+[0.681s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/environment/ament_prefix_path.sh
+[0.681s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/environment/ament_prefix_path.dsv
+[0.681s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/environment/path.sh
+[0.682s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/environment/path.dsv
+[0.682s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/local_setup.bash
+[0.682s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/local_setup.sh
+[0.682s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/local_setup.zsh
+[0.682s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/local_setup.dsv
+[0.682s] -- Installing: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/package.dsv
+[0.682s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/ament_index/resource_index/packages/segway_rmp_ros2
+[0.682s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/cmake/export_segway_rmp_ros2__rosidl_generator_cExport.cmake
+[0.683s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/cmake/export_segway_rmp_ros2__rosidl_generator_cExport-debug.cmake
+[0.683s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/cmake/export_segway_rmp_ros2__rosidl_typesupport_fastrtps_cExport.cmake
+[0.683s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/cmake/export_segway_rmp_ros2__rosidl_typesupport_fastrtps_cExport-debug.cmake
+[0.683s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/cmake/export_segway_rmp_ros2__rosidl_generator_cppExport.cmake
+[0.683s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/cmake/export_segway_rmp_ros2__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.683s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/cmake/export_segway_rmp_ros2__rosidl_typesupport_fastrtps_cppExport-debug.cmake
+[0.683s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/cmake/segway_rmp_ros2__rosidl_typesupport_introspection_cExport.cmake
+[0.683s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/cmake/segway_rmp_ros2__rosidl_typesupport_introspection_cExport-debug.cmake
+[0.683s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/cmake/segway_rmp_ros2__rosidl_typesupport_cExport.cmake
+[0.684s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/cmake/segway_rmp_ros2__rosidl_typesupport_cExport-debug.cmake
+[0.684s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/cmake/segway_rmp_ros2__rosidl_typesupport_introspection_cppExport.cmake
+[0.684s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/cmake/segway_rmp_ros2__rosidl_typesupport_introspection_cppExport-debug.cmake
+[0.684s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/cmake/segway_rmp_ros2__rosidl_typesupport_cppExport.cmake
+[0.684s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/cmake/segway_rmp_ros2__rosidl_typesupport_cppExport-debug.cmake
+[0.684s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/cmake/export_segway_rmp_ros2__rosidl_generator_pyExport.cmake
+[0.684s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/cmake/export_segway_rmp_ros2__rosidl_generator_pyExport-debug.cmake
+[0.684s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/cmake/rosidl_cmake-extras.cmake
+[0.684s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.684s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.684s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/cmake/ament_cmake_export_libraries-extras.cmake
+[0.684s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/cmake/ament_cmake_export_targets-extras.cmake
+[0.685s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.685s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.685s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/cmake/segway_rmp_ros2Config.cmake
+[0.685s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/cmake/segway_rmp_ros2Config-version.cmake
+[0.685s] -- Up-to-date: /home/4_fri/bwi_ros2/install/segway_rmp_ros2/share/segway_rmp_ros2/package.xml
+[0.686s] Invoked command in '/home/4_fri/bwi_ros2/build/segway_rmp_ros2' returned '0': AMENT_PREFIX_PATH=/home/4_fri/bwi_ros2/install/libsegwayrmp:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/4_fri/bwi_ros2/install/libsegwayrmp:/opt/ros/humble LD_LIBRARY_PATH=/home/4_fri/bwi_ros2/install/libsegwayrmp/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/4_fri/bwi_ros2/install/libsegwayrmp/lib/pkgconfig /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/segway_rmp_ros2

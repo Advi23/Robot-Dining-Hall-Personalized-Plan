@@ -1,0 +1,97 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from segway_rmp_ros2/msg/SegwayStatus.msg
+// generated code does not contain a copyright notice
+
+
+module segway_rmp_ros2 {
+  module msg {
+    @verbatim (language="comment", text=
+      "SegwayStatus.msg" "\n"
+      "This is the message definition for the Segway Status struct.")
+    struct SegwayStatus {
+      @verbatim (language="comment", text=
+        "Gain Schedule Constants" "\n"
+        "LIGHT = 1" "\n"
+        "TALL = 2" "\n"
+        "HEAVY = 3" "\n"
+        "Operation Mode Constants" "\n"
+        "BALANCE = 1" "\n"
+        "TRACTOR = 2" "\n"
+        "POWER_DOWN = 3" "\n"
+        "radians")
+      int8 pitch_angle;
+
+      @verbatim (language="comment", text=
+        "radians/s")
+      int8 pitch_rate;
+
+      @verbatim (language="comment", text=
+        "radians")
+      float roll_angle;
+
+      @verbatim (language="comment", text=
+        "radians/s")
+      float roll_rate;
+
+      @verbatim (language="comment", text=
+        "meters/s")
+      float left_wheel_velocity;
+
+      @verbatim (language="comment", text=
+        "meters/s")
+      float right_wheel_velocity;
+
+      @verbatim (language="comment", text=
+        "radians/s")
+      float yaw_rate;
+
+      @verbatim (language="comment", text=
+        "frames/second")
+      float servo_frames;
+
+      @verbatim (language="comment", text=
+        "meters")
+      float left_wheel_displacement;
+
+      @verbatim (language="comment", text=
+        "meters")
+      float right_wheel_displacement;
+
+      @verbatim (language="comment", text=
+        "meters")
+      float forward_displacement;
+
+      @verbatim (language="comment", text=
+        "revolutions")
+      float yaw_displacement;
+
+      @verbatim (language="comment", text=
+        "Newton-meters")
+      float left_motor_torque;
+
+      @verbatim (language="comment", text=
+        "Newton-meters")
+      float right_motor_torque;
+
+      @verbatim (language="comment", text=
+        "Balance, Tractor, or Powered Down")
+      int8 operation_mode;
+
+      @verbatim (language="comment", text=
+        "Light, Tall, or Heavy")
+      int8 gain_schedule;
+
+      @verbatim (language="comment", text=
+        "Volts")
+      float ui_battery;
+
+      @verbatim (language="comment", text=
+        "Volts")
+      float powerbase_battery;
+
+      @verbatim (language="comment", text=
+        "Enabled (true) or E-Stopped (false)")
+      boolean motors_enabled;
+    };
+  };
+};

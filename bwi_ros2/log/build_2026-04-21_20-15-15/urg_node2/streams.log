@@ -1,0 +1,77 @@
+[0.916s] Invoking command in '/home/4_fri/bwi_ros2/build/urg_node2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/urg_node2 -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/urg_node2
+[1.000s] -- The C compiler identification is GNU 11.4.0
+[1.091s] -- The CXX compiler identification is GNU 11.4.0
+[1.104s] -- Detecting C compiler ABI info
+[1.229s] -- Detecting C compiler ABI info - done
+[1.249s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.250s] -- Detecting C compile features
+[1.255s] -- Detecting C compile features - done
+[1.255s] -- Detecting CXX compiler ABI info
+[1.422s] -- Detecting CXX compiler ABI info - done
+[1.443s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.443s] -- Detecting CXX compile features
+[1.443s] -- Detecting CXX compile features - done
+[1.448s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.708s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.877s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.932s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.940s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.953s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.971s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.996s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.070s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.070s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.242s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.288s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.345s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.370s] -- Looking for pthread.h
+[2.535s] -- Looking for pthread.h - found
+[2.536s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.660s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.664s] -- Found Threads: TRUE  
+[2.754s] -- Found rclcpp_components: 16.0.14 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.793s] -- Found rclcpp_lifecycle: 16.0.14 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.864s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.924s] -- Found diagnostic_updater: 4.0.6 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[3.000s] -- Found laser_proc: 1.0.2 (/opt/ros/humble/share/laser_proc/cmake)
+[3.027s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.028s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.221s] -- Configuring done
+[3.299s] -- Generating done
+[3.314s] -- Build files have been written to: /home/4_fri/bwi_ros2/build/urg_node2
+[3.348s] Invoked command in '/home/4_fri/bwi_ros2/build/urg_node2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/urg_node2 -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/urg_node2
+[3.359s] Invoking command in '/home/4_fri/bwi_ros2/build/urg_node2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/urg_node2 -- -j12 -l12
+[3.495s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.495s] [ 10%] [32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_sensor.c.o[0m
+[3.498s] [ 15%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[3.502s] [ 20%] [32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial.c.o[0m
+[3.503s] [ 25%] [32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_utils.c.o[0m
+[3.503s] [ 30%] [32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_debug.c.o[0m
+[3.506s] [ 35%] [32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_connection.c.o[0m
+[3.512s] [ 45%] [32mBuilding CXX object CMakeFiles/urg_node2_node.dir/rclcpp_components/node_main_urg_node2_node.cpp.o[0m
+[3.513s] [ 45%] [32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial_utils.c.o[0m
+[3.514s] [ 50%] [32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_ring_buffer.c.o[0m
+[3.522s] [ 55%] [32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_tcpclient.c.o[0m
+[3.615s] [01m[K/home/4_fri/bwi_ros2/src/urg_node2/urg_library/current/src/urg_sensor.c:1349:8:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[3.615s]  1349 | static [01;35m[Kconst[m[K int receive_II_command_response(urg_t *urg,
+[3.615s]       |        [01;35m[K^~~~~[m[K
+[3.631s] [01m[K/home/4_fri/bwi_ros2/src/urg_node2/urg_library/current/src/urg_utils.c:[m[K In function ‘[01m[Kurg_delay[m[K’:
+[3.631s] [01m[K/home/4_fri/bwi_ros2/src/urg_node2/urg_library/current/src/urg_utils.c:224:5:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kusleep[m[K’; did you mean ‘[01m[Kurg_sleep[m[K’? [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+[3.631s]   224 |     [01;35m[Kusleep[m[K(1000 * delay_msec);
+[3.631s]       |     [01;35m[K^~~~~~[m[K
+[3.631s]       |     [32m[Kurg_sleep[m[K
+[3.874s] [ 60%] [32m[1mLinking C shared library liburg_c.so[0m
+[4.053s] [ 60%] Built target urg_c
+[4.095s] [ 65%] [32mBuilding CXX object CMakeFiles/urg_node2.dir/src/urg_node2.cpp.o[0m
+[5.867s] [ 70%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[6.028s] [ 70%] Built target gtest_main
+[12.024s] [ 75%] [32m[1mLinking CXX static library libgtest.a[0m
+[12.424s] [ 75%] Built target gtest
+[12.466s] [ 80%] [32mBuilding CXX object CMakeFiles/urg_node2_test.dir/src/urg_node2.cpp.o[0m
+[12.468s] [ 85%] [32mBuilding CXX object CMakeFiles/urg_node2_test.dir/test/urg_node2_test.cpp.o[0m
+[13.259s] [ 90%] [32m[1mLinking CXX executable urg_node2_node[0m
+[13.555s] [ 90%] Built target urg_node2_node
+[17.852s] [ 95%] [32m[1mLinking CXX shared library liburg_node2.so[0m
+[18.971s] [ 95%] Built target urg_node2
+[34.185s] [100%] [32m[1mLinking CXX executable urg_node2_test[0m
+[35.180s] [100%] Built target urg_node2_test

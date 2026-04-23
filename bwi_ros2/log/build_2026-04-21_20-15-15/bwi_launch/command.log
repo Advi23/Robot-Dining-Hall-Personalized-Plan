@@ -1,0 +1,6 @@
+Invoking command in '/home/4_fri/bwi_ros2/build/bwi_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/bwi_ros2_common/bwi_launch -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/bwi_launch
+Invoked command in '/home/4_fri/bwi_ros2/build/bwi_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/bwi_ros2_common/bwi_launch -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/bwi_launch
+Invoking command in '/home/4_fri/bwi_ros2/build/bwi_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/bwi_launch -- -j12 -l12
+Invoked command in '/home/4_fri/bwi_ros2/build/bwi_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/bwi_launch -- -j12 -l12
+Invoking command in '/home/4_fri/bwi_ros2/build/bwi_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/bwi_launch
+Invoked command in '/home/4_fri/bwi_ros2/build/bwi_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/bwi_launch

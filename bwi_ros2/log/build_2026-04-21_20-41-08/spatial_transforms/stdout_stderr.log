@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target spatial_transform_node[0m
+[35m[1mConsolidate compiler generated dependencies of target tf_listener_node[0m
+[ 50%] Built target tf_listener_node
+[100%] Built target spatial_transform_node
+-- Install configuration: ""
+-- Installing: /home/4_fri/bwi_ros2/install/spatial_transforms/lib/spatial_transforms/spatial_transform_node
+-- Set runtime path of "/home/4_fri/bwi_ros2/install/spatial_transforms/lib/spatial_transforms/spatial_transform_node" to ""
+-- Installing: /home/4_fri/bwi_ros2/install/spatial_transforms/lib/spatial_transforms/tf_listener_node
+-- Set runtime path of "/home/4_fri/bwi_ros2/install/spatial_transforms/lib/spatial_transforms/tf_listener_node" to ""
+-- Installing: /home/4_fri/bwi_ros2/install/spatial_transforms/share/ament_index/resource_index/package_run_dependencies/spatial_transforms
+-- Installing: /home/4_fri/bwi_ros2/install/spatial_transforms/share/ament_index/resource_index/parent_prefix_path/spatial_transforms
+-- Installing: /home/4_fri/bwi_ros2/install/spatial_transforms/share/spatial_transforms/environment/ament_prefix_path.sh
+-- Installing: /home/4_fri/bwi_ros2/install/spatial_transforms/share/spatial_transforms/environment/ament_prefix_path.dsv
+-- Installing: /home/4_fri/bwi_ros2/install/spatial_transforms/share/spatial_transforms/environment/path.sh
+-- Installing: /home/4_fri/bwi_ros2/install/spatial_transforms/share/spatial_transforms/environment/path.dsv
+-- Installing: /home/4_fri/bwi_ros2/install/spatial_transforms/share/spatial_transforms/local_setup.bash
+-- Installing: /home/4_fri/bwi_ros2/install/spatial_transforms/share/spatial_transforms/local_setup.sh
+-- Installing: /home/4_fri/bwi_ros2/install/spatial_transforms/share/spatial_transforms/local_setup.zsh
+-- Installing: /home/4_fri/bwi_ros2/install/spatial_transforms/share/spatial_transforms/local_setup.dsv
+-- Installing: /home/4_fri/bwi_ros2/install/spatial_transforms/share/spatial_transforms/package.dsv
+-- Installing: /home/4_fri/bwi_ros2/install/spatial_transforms/share/ament_index/resource_index/packages/spatial_transforms
+-- Installing: /home/4_fri/bwi_ros2/install/spatial_transforms/share/spatial_transforms/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/4_fri/bwi_ros2/install/spatial_transforms/share/spatial_transforms/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/4_fri/bwi_ros2/install/spatial_transforms/share/spatial_transforms/cmake/spatial_transformsConfig.cmake
+-- Installing: /home/4_fri/bwi_ros2/install/spatial_transforms/share/spatial_transforms/cmake/spatial_transformsConfig-version.cmake
+-- Installing: /home/4_fri/bwi_ros2/install/spatial_transforms/share/spatial_transforms/package.xml

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-256e268631159528fdaa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "azure_kinect_ros_driver",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "azure_kinect_ros_driver_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-azure_kinect_ros_driver_node-3c20fe229cd20f6e0b00.json",
+					"name" : "azure_kinect_ros_driver_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "azure_kinect_ros_driver_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-azure_kinect_ros_driver_uninstall-0e31859826aebe394616.json",
+					"name" : "azure_kinect_ros_driver_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b31fdb3f579b58a714cd.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/4_fri/bwi_ros2/build/azure_kinect_ros_driver",
+		"source" : "/home/4_fri/bwi_ros2/src/Azure_Kinect_ROS_Driver"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>segbot_description</name>
+  <version>0.3.5</version>
+  <description>
+    Contains URDF descriptions of all robot components and sensors for the
+    segbot, as well as all the different sensor configurations for a segbot.
+  </description>
+
+  <license>BSD</license>
+
+  <url type="website">http://ros.org/wiki/segbot_description</url>
+  <url type="repository">https://github.com/utexas-bwi/segbot.git</url>
+  <url type="bugtracker">https://github.com/utexas-bwi/segbot/issues</url>
+
+  <author email="piyushk@gmail.com">Piyush Khandelwal</author>
+  <maintainer email="piyushk@gmail.com">Piyush Khandelwal</maintainer>
+  <maintainer email="jack.oquin@gmail.com">Jack O'Quin</maintainer>
+
+  <!-- ROS 2 build tool is ament_cmake -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- ROS 2 dependencies -->
+  <exec_depend>pr2_description</exec_depend> <!-- kinect mesh -->
+  <exec_depend>velodyne_description</exec_depend>
+  <exec_depend>velodyne_gazebo_plugins</exec_depend>
+  <exec_depend>xacro</exec_depend>
+
+  <!-- Uncomment and add segway_description if necessary when released -->
+  <!-- <exec_depend>segway_description</exec_depend> -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+

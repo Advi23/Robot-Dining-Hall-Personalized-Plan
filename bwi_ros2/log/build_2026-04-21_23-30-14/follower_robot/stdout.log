@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target follower_robot[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/follower_robot.dir/src/FollowerRobotNode.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/follower_robot.dir/src/MoveToTarget.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/follower_robot.dir/src/follower_robot.cpp.o[0m

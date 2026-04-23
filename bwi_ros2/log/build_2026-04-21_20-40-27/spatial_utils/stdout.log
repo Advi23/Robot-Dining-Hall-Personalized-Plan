@@ -1,0 +1,25 @@
+[100%] Built target spatial_utils
+-- Install configuration: ""
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/lib/libspatial_utils.a
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/include
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/include/spatial_utils
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/include/spatial_utils/transform_util.h
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/spatial_utils/environment/library_path.sh
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/spatial_utils/environment/library_path.dsv
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/ament_index/resource_index/package_run_dependencies/spatial_utils
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/ament_index/resource_index/parent_prefix_path/spatial_utils
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/spatial_utils/environment/ament_prefix_path.sh
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/spatial_utils/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/spatial_utils/environment/path.sh
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/spatial_utils/environment/path.dsv
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/spatial_utils/local_setup.bash
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/spatial_utils/local_setup.sh
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/spatial_utils/local_setup.zsh
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/spatial_utils/local_setup.dsv
+-- Installing: /home/4_fri/bwi_ros2/install/spatial_utils/share/spatial_utils/package.dsv
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/ament_index/resource_index/packages/spatial_utils
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/spatial_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/spatial_utils/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/spatial_utils/cmake/spatial_utilsConfig.cmake
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/spatial_utils/cmake/spatial_utilsConfig-version.cmake
+-- Up-to-date: /home/4_fri/bwi_ros2/install/spatial_utils/share/spatial_utils/package.xml

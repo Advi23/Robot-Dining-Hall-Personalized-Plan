@@ -1,0 +1,11 @@
+/home/4_fri/bwi_ros2/build/spatial_transforms/CMakeFiles/uninstall.dir
+/home/4_fri/bwi_ros2/build/spatial_transforms/CMakeFiles/spatial_transforms_uninstall.dir
+/home/4_fri/bwi_ros2/build/spatial_transforms/CMakeFiles/spatial_transform_node.dir
+/home/4_fri/bwi_ros2/build/spatial_transforms/CMakeFiles/tf_listener_node.dir
+/home/4_fri/bwi_ros2/build/spatial_transforms/CMakeFiles/test.dir
+/home/4_fri/bwi_ros2/build/spatial_transforms/CMakeFiles/edit_cache.dir
+/home/4_fri/bwi_ros2/build/spatial_transforms/CMakeFiles/rebuild_cache.dir
+/home/4_fri/bwi_ros2/build/spatial_transforms/CMakeFiles/list_install_components.dir
+/home/4_fri/bwi_ros2/build/spatial_transforms/CMakeFiles/install.dir
+/home/4_fri/bwi_ros2/build/spatial_transforms/CMakeFiles/install/local.dir
+/home/4_fri/bwi_ros2/build/spatial_transforms/CMakeFiles/install/strip.dir

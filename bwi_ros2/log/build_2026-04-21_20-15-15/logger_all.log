@@ -1,0 +1,919 @@
+[0.099s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.099s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7412f286f400>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7412f286ee90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7412f286ee90>>, mixin_verb=('build',))
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.273s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/4_fri/bwi_ros2'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(serial) ignored
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/Azure_Kinect_ROS_Driver) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/Azure_Kinect_ROS_Driver) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/Azure_Kinect_ROS_Driver) by extension 'ignore_ament_install'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/Azure_Kinect_ROS_Driver) by extensions ['colcon_pkg']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/Azure_Kinect_ROS_Driver) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/Azure_Kinect_ROS_Driver) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/Azure_Kinect_ROS_Driver) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/Azure_Kinect_ROS_Driver) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/Azure_Kinect_ROS_Driver) by extension 'ros'
+[0.300s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Azure_Kinect_ROS_Driver' with type 'ros.ament_cmake' and name 'azure_kinect_ros_driver'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['colcon_pkg']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'colcon_meta'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'ros'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['cmake', 'python']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'cmake'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'python'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['python_setup_py']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'python_setup_py'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros/apriltag_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros/apriltag_msgs) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros/apriltag_msgs) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros/apriltag_msgs) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros/apriltag_msgs) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros/apriltag_msgs) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros/apriltag_msgs) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros/apriltag_msgs) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros/apriltag_msgs) by extension 'ros'
+[0.302s] DEBUG:colcon.colcon_core.package_identification:Package 'src/apriltag_ros/apriltag_msgs' with type 'ros.ament_cmake' and name 'apriltag_msgs'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros/apriltag_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros/apriltag_ros) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros/apriltag_ros) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros/apriltag_ros) by extensions ['colcon_pkg']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros/apriltag_ros) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros/apriltag_ros) by extensions ['colcon_meta']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros/apriltag_ros) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros/apriltag_ros) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros/apriltag_ros) by extension 'ros'
+[0.304s] DEBUG:colcon.colcon_core.package_identification:Package 'src/apriltag_ros/apriltag_ros' with type 'ros.ament_cmake' and name 'apriltag_ros'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/bwi_ros2_common) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/bwi_ros2_common) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/bwi_ros2_common) by extension 'ignore_ament_install'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/bwi_ros2_common) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/bwi_ros2_common) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/bwi_ros2_common) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/bwi_ros2_common) by extension 'colcon_meta'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/bwi_ros2_common) by extensions ['ros']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/bwi_ros2_common) by extension 'ros'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/bwi_ros2_common) by extensions ['cmake', 'python']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/bwi_ros2_common) by extension 'cmake'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/bwi_ros2_common) by extension 'python'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/bwi_ros2_common) by extensions ['python_setup_py']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/bwi_ros2_common) by extension 'python_setup_py'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/bwi_ros2_common/bwi_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/bwi_ros2_common/bwi_launch) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/bwi_ros2_common/bwi_launch) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/bwi_ros2_common/bwi_launch) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/bwi_ros2_common/bwi_launch) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/bwi_ros2_common/bwi_launch) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/bwi_ros2_common/bwi_launch) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/bwi_ros2_common/bwi_launch) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/bwi_ros2_common/bwi_launch) by extension 'ros'
+[0.305s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bwi_ros2_common/bwi_launch' with type 'ros.ament_cmake' and name 'bwi_launch'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/bwi_ros2_common/nav2_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/bwi_ros2_common/nav2_bringup) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/bwi_ros2_common/nav2_bringup) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/bwi_ros2_common/nav2_bringup) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/bwi_ros2_common/nav2_bringup) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/bwi_ros2_common/nav2_bringup) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/bwi_ros2_common/nav2_bringup) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/bwi_ros2_common/nav2_bringup) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/bwi_ros2_common/nav2_bringup) by extension 'ros'
+[0.306s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bwi_ros2_common/nav2_bringup' with type 'ros.ament_cmake' and name 'nav2_bringup'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/libsegwayrmp) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/libsegwayrmp) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/libsegwayrmp) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/libsegwayrmp) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/libsegwayrmp) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/libsegwayrmp) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/libsegwayrmp) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/libsegwayrmp) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/libsegwayrmp) by extension 'ros'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/libsegwayrmp) by extensions ['cmake', 'python']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/libsegwayrmp) by extension 'cmake'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/libsegwayrmp) by extension 'python'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/libsegwayrmp) by extensions ['python_setup_py']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/libsegwayrmp) by extension 'python_setup_py'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/libsegwayrmp/libsegwayrmp) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/libsegwayrmp/libsegwayrmp) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/libsegwayrmp/libsegwayrmp) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/libsegwayrmp/libsegwayrmp) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/libsegwayrmp/libsegwayrmp) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/libsegwayrmp/libsegwayrmp) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/libsegwayrmp/libsegwayrmp) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/libsegwayrmp/libsegwayrmp) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/libsegwayrmp/libsegwayrmp) by extension 'ros'
+[0.308s] DEBUG:colcon.colcon_core.package_identification:Package 'src/libsegwayrmp/libsegwayrmp' with type 'ros.ament_cmake' and name 'libsegwayrmp'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'ros'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extensions ['cmake', 'python']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'cmake'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'python'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extensions ['python_setup_py']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'python_setup_py'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/ros2_laser_scan_merger) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/ros2_laser_scan_merger) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/ros2_laser_scan_merger) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/ros2_laser_scan_merger) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/ros2_laser_scan_merger) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/ros2_laser_scan_merger) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/ros2_laser_scan_merger) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/ros2_laser_scan_merger) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/ros2_laser_scan_merger) by extension 'ros'
+[0.310s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar/ros2_laser_scan_merger' with type 'ros.ament_cmake' and name 'ros2_laser_scan_merger'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/scan_filter) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/scan_filter) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/scan_filter) by extension 'ignore_ament_install'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/scan_filter) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/scan_filter) by extension 'colcon_pkg'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/scan_filter) by extensions ['colcon_meta']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/scan_filter) by extension 'colcon_meta'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/scan_filter) by extensions ['ros']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/scan_filter) by extension 'ros'
+[0.311s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar/scan_filter' with type 'ros.ament_python' and name 'scan_filter'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/scan_prox_filter) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/scan_prox_filter) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/scan_prox_filter) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/scan_prox_filter) by extensions ['colcon_pkg']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/scan_prox_filter) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/scan_prox_filter) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/scan_prox_filter) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/scan_prox_filter) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/scan_prox_filter) by extension 'ros'
+[0.313s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar/scan_prox_filter' with type 'ros.ament_python' and name 'scan_prox_filter'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne) by extension 'ros'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne) by extensions ['cmake', 'python']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne) by extension 'cmake'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne) by extension 'python'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne) by extensions ['python_setup_py']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne) by extension 'python_setup_py'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne) by extension 'ros'
+[0.314s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar/velodyne/velodyne' with type 'ros.ament_cmake' and name 'velodyne'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_driver) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_driver) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_driver) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_driver) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_driver) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_driver) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_driver) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_driver) by extension 'ros'
+[0.316s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar/velodyne/velodyne_driver' with type 'ros.ament_cmake' and name 'velodyne_driver'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_laserscan) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_laserscan) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_laserscan) by extension 'ignore_ament_install'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_laserscan) by extensions ['colcon_pkg']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_laserscan) by extension 'colcon_pkg'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_laserscan) by extensions ['colcon_meta']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_laserscan) by extension 'colcon_meta'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_laserscan) by extensions ['ros']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_laserscan) by extension 'ros'
+[0.317s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar/velodyne/velodyne_laserscan' with type 'ros.ament_cmake' and name 'velodyne_laserscan'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_msgs) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_msgs) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_msgs) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_msgs) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_msgs) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_msgs) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_msgs) by extensions ['ros']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_msgs) by extension 'ros'
+[0.318s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar/velodyne/velodyne_msgs' with type 'ros.ament_cmake' and name 'velodyne_msgs'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_pointcloud) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_pointcloud) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_pointcloud) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_pointcloud) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_pointcloud) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_pointcloud) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_pointcloud) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_pointcloud) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/velodyne/velodyne_pointcloud) by extension 'ros'
+[0.319s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar/velodyne/velodyne_pointcloud' with type 'ros.ament_cmake' and name 'velodyne_pointcloud'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/segbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/segbot_description) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/segbot_description) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/segbot_description) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/segbot_description) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/segbot_description) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/segbot_description) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/segbot_description) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/segbot_description) by extension 'ros'
+[0.320s] DEBUG:colcon.colcon_core.package_identification:Package 'src/segbot_description' with type 'ros.ament_cmake' and name 'segbot_description'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/segway_rmp_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/segway_rmp_ros2) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/segway_rmp_ros2) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/segway_rmp_ros2) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/segway_rmp_ros2) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/segway_rmp_ros2) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/segway_rmp_ros2) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/segway_rmp_ros2) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/segway_rmp_ros2) by extension 'ros'
+[0.321s] DEBUG:colcon.colcon_core.package_identification:Package 'src/segway_rmp_ros2' with type 'ros.ament_cmake' and name 'segway_rmp_ros2'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extension 'ros'
+[0.323s] DEBUG:colcon.colcon_core.package_identification:Package 'src/urg_node2' with type 'ros.ament_cmake' and name 'urg_node2'
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.345s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 410 installed packages in /opt/ros/humble
+[0.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_target' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.391s] DEBUG:colcon.colcon_core.verb:Building package 'apriltag_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/4_fri/bwi_ros2/build/apriltag_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/4_fri/bwi_ros2/install/apriltag_msgs', 'merge_install': False, 'path': '/home/4_fri/bwi_ros2/src/apriltag_ros/apriltag_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'azure_kinect_ros_driver' build argument 'cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'azure_kinect_ros_driver' build argument 'cmake_target' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'azure_kinect_ros_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'azure_kinect_ros_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'azure_kinect_ros_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'azure_kinect_ros_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'azure_kinect_ros_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'azure_kinect_ros_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'azure_kinect_ros_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.392s] DEBUG:colcon.colcon_core.verb:Building package 'azure_kinect_ros_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/4_fri/bwi_ros2/build/azure_kinect_ros_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/4_fri/bwi_ros2/install/azure_kinect_ros_driver', 'merge_install': False, 'path': '/home/4_fri/bwi_ros2/src/Azure_Kinect_ROS_Driver', 'symlink_install': False, 'test_result_base': None}
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'bwi_launch' build argument 'cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'bwi_launch' build argument 'cmake_target' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'bwi_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'bwi_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'bwi_launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'bwi_launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'bwi_launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'bwi_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'bwi_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.392s] DEBUG:colcon.colcon_core.verb:Building package 'bwi_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/4_fri/bwi_ros2/build/bwi_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/4_fri/bwi_ros2/install/bwi_launch', 'merge_install': False, 'path': '/home/4_fri/bwi_ros2/src/bwi_ros2_common/bwi_launch', 'symlink_install': False, 'test_result_base': None}
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'libsegwayrmp' build argument 'cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'libsegwayrmp' build argument 'cmake_target' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'libsegwayrmp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'libsegwayrmp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'libsegwayrmp' build argument 'cmake_clean_first' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'libsegwayrmp' build argument 'cmake_force_configure' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'libsegwayrmp' build argument 'ament_cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'libsegwayrmp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'libsegwayrmp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.392s] DEBUG:colcon.colcon_core.verb:Building package 'libsegwayrmp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/4_fri/bwi_ros2/build/libsegwayrmp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/4_fri/bwi_ros2/install/libsegwayrmp', 'merge_install': False, 'path': '/home/4_fri/bwi_ros2/src/libsegwayrmp/libsegwayrmp', 'symlink_install': False, 'test_result_base': None}
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'nav2_bringup' build argument 'cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'nav2_bringup' build argument 'cmake_target' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'nav2_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'nav2_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'nav2_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'nav2_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'nav2_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'nav2_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'nav2_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.393s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/4_fri/bwi_ros2/build/nav2_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/4_fri/bwi_ros2/install/nav2_bringup', 'merge_install': False, 'path': '/home/4_fri/bwi_ros2/src/bwi_ros2_common/nav2_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_merger' build argument 'cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_merger' build argument 'cmake_target' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_merger' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_merger' build argument 'cmake_clean_cache' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_merger' build argument 'cmake_clean_first' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_merger' build argument 'cmake_force_configure' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_merger' build argument 'ament_cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_merger' build argument 'catkin_cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_merger' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.393s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_laser_scan_merger' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/4_fri/bwi_ros2/build/ros2_laser_scan_merger', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/4_fri/bwi_ros2/install/ros2_laser_scan_merger', 'merge_install': False, 'path': '/home/4_fri/bwi_ros2/src/lidar/ros2_laser_scan_merger', 'symlink_install': False, 'test_result_base': None}
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'scan_filter' build argument 'cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'scan_filter' build argument 'cmake_target' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'scan_filter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'scan_filter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'scan_filter' build argument 'cmake_clean_first' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'scan_filter' build argument 'cmake_force_configure' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'scan_filter' build argument 'ament_cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'scan_filter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'scan_filter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.394s] DEBUG:colcon.colcon_core.verb:Building package 'scan_filter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/4_fri/bwi_ros2/build/scan_filter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/4_fri/bwi_ros2/install/scan_filter', 'merge_install': False, 'path': '/home/4_fri/bwi_ros2/src/lidar/scan_filter', 'symlink_install': False, 'test_result_base': None}
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'scan_prox_filter' build argument 'cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'scan_prox_filter' build argument 'cmake_target' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'scan_prox_filter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'scan_prox_filter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'scan_prox_filter' build argument 'cmake_clean_first' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'scan_prox_filter' build argument 'cmake_force_configure' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'scan_prox_filter' build argument 'ament_cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'scan_prox_filter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'scan_prox_filter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.394s] DEBUG:colcon.colcon_core.verb:Building package 'scan_prox_filter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/4_fri/bwi_ros2/build/scan_prox_filter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/4_fri/bwi_ros2/install/scan_prox_filter', 'merge_install': False, 'path': '/home/4_fri/bwi_ros2/src/lidar/scan_prox_filter', 'symlink_install': False, 'test_result_base': None}
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'segbot_description' build argument 'cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'segbot_description' build argument 'cmake_target' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'segbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'segbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'segbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'segbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'segbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'segbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'segbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.395s] DEBUG:colcon.colcon_core.verb:Building package 'segbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/4_fri/bwi_ros2/build/segbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/4_fri/bwi_ros2/install/segbot_description', 'merge_install': False, 'path': '/home/4_fri/bwi_ros2/src/segbot_description', 'symlink_install': False, 'test_result_base': None}
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_target' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_clean_first' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_force_configure' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'ament_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.395s] DEBUG:colcon.colcon_core.verb:Building package 'urg_node2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/4_fri/bwi_ros2/build/urg_node2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/4_fri/bwi_ros2/install/urg_node2', 'merge_install': False, 'path': '/home/4_fri/bwi_ros2/src/urg_node2', 'symlink_install': False, 'test_result_base': None}
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_target' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_clean_cache' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_clean_first' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_force_configure' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'ament_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'catkin_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.396s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_laserscan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/4_fri/bwi_ros2/build/velodyne_laserscan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/4_fri/bwi_ros2/install/velodyne_laserscan', 'merge_install': False, 'path': '/home/4_fri/bwi_ros2/src/lidar/velodyne/velodyne_laserscan', 'symlink_install': False, 'test_result_base': None}
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_target' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.396s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/4_fri/bwi_ros2/build/velodyne_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/4_fri/bwi_ros2/install/velodyne_msgs', 'merge_install': False, 'path': '/home/4_fri/bwi_ros2/src/lidar/velodyne/velodyne_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_target' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.396s] DEBUG:colcon.colcon_core.verb:Building package 'apriltag_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/4_fri/bwi_ros2/build/apriltag_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/4_fri/bwi_ros2/install/apriltag_ros', 'merge_install': False, 'path': '/home/4_fri/bwi_ros2/src/apriltag_ros/apriltag_ros', 'symlink_install': False, 'test_result_base': None}
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'segway_rmp_ros2' build argument 'cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'segway_rmp_ros2' build argument 'cmake_target' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'segway_rmp_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'segway_rmp_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'segway_rmp_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'segway_rmp_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'segway_rmp_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'segway_rmp_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'segway_rmp_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.397s] DEBUG:colcon.colcon_core.verb:Building package 'segway_rmp_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/4_fri/bwi_ros2/build/segway_rmp_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/4_fri/bwi_ros2/install/segway_rmp_ros2', 'merge_install': False, 'path': '/home/4_fri/bwi_ros2/src/segway_rmp_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_target' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.397s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/4_fri/bwi_ros2/build/velodyne_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/4_fri/bwi_ros2/install/velodyne_driver', 'merge_install': False, 'path': '/home/4_fri/bwi_ros2/src/lidar/velodyne/velodyne_driver', 'symlink_install': False, 'test_result_base': None}
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_target' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_clean_cache' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_clean_first' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_force_configure' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'ament_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'catkin_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.398s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_pointcloud' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/4_fri/bwi_ros2/build/velodyne_pointcloud', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/4_fri/bwi_ros2/install/velodyne_pointcloud', 'merge_install': False, 'path': '/home/4_fri/bwi_ros2/src/lidar/velodyne/velodyne_pointcloud', 'symlink_install': False, 'test_result_base': None}
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_target' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_clean_cache' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_clean_first' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_force_configure' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'ament_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'catkin_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.398s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/4_fri/bwi_ros2/build/velodyne', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/4_fri/bwi_ros2/install/velodyne', 'merge_install': False, 'path': '/home/4_fri/bwi_ros2/src/lidar/velodyne/velodyne', 'symlink_install': False, 'test_result_base': None}
+[0.398s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.400s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.400s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/4_fri/bwi_ros2/src/lidar/velodyne/velodyne_msgs' with build type 'ament_cmake'
+[0.400s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/4_fri/bwi_ros2/src/lidar/velodyne/velodyne_msgs'
+[0.402s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.402s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.402s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.405s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/4_fri/bwi_ros2/src/apriltag_ros/apriltag_msgs' with build type 'ament_cmake'
+[0.405s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/4_fri/bwi_ros2/src/apriltag_ros/apriltag_msgs'
+[0.405s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.405s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.408s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/4_fri/bwi_ros2/src/libsegwayrmp/libsegwayrmp' with build type 'ament_cmake'
+[0.408s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/4_fri/bwi_ros2/src/libsegwayrmp/libsegwayrmp'
+[0.408s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.408s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.411s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/4_fri/bwi_ros2/src/lidar/velodyne/velodyne_laserscan' with build type 'ament_cmake'
+[0.411s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/4_fri/bwi_ros2/src/lidar/velodyne/velodyne_laserscan'
+[0.411s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.411s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.413s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/4_fri/bwi_ros2/src/Azure_Kinect_ROS_Driver' with build type 'ament_cmake'
+[0.413s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/4_fri/bwi_ros2/src/Azure_Kinect_ROS_Driver'
+[0.414s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.414s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.416s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/4_fri/bwi_ros2/src/bwi_ros2_common/bwi_launch' with build type 'ament_cmake'
+[0.416s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/4_fri/bwi_ros2/src/bwi_ros2_common/bwi_launch'
+[0.416s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.416s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.419s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/4_fri/bwi_ros2/src/bwi_ros2_common/nav2_bringup' with build type 'ament_cmake'
+[0.419s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/4_fri/bwi_ros2/src/bwi_ros2_common/nav2_bringup'
+[0.419s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.419s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.421s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/4_fri/bwi_ros2/src/lidar/ros2_laser_scan_merger' with build type 'ament_cmake'
+[0.421s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/4_fri/bwi_ros2/src/lidar/ros2_laser_scan_merger'
+[0.421s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.421s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.424s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/4_fri/bwi_ros2/src/lidar/scan_filter' with build type 'ament_python'
+[0.424s] Level 1:colcon.colcon_core.shell:create_environment_hook('scan_filter', 'ament_prefix_path')
+[0.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/scan_filter/share/scan_filter/hook/ament_prefix_path.ps1'
+[0.425s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/4_fri/bwi_ros2/install/scan_filter/share/scan_filter/hook/ament_prefix_path.dsv'
+[0.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/scan_filter/share/scan_filter/hook/ament_prefix_path.sh'
+[0.426s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.426s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.428s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/4_fri/bwi_ros2/src/lidar/scan_prox_filter' with build type 'ament_python'
+[0.428s] Level 1:colcon.colcon_core.shell:create_environment_hook('scan_prox_filter', 'ament_prefix_path')
+[0.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/scan_prox_filter/share/scan_prox_filter/hook/ament_prefix_path.ps1'
+[0.429s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/4_fri/bwi_ros2/install/scan_prox_filter/share/scan_prox_filter/hook/ament_prefix_path.dsv'
+[0.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/scan_prox_filter/share/scan_prox_filter/hook/ament_prefix_path.sh'
+[0.429s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.429s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.431s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/4_fri/bwi_ros2/src/segbot_description' with build type 'ament_cmake'
+[0.431s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/4_fri/bwi_ros2/src/segbot_description'
+[0.432s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.432s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.434s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/4_fri/bwi_ros2/src/urg_node2' with build type 'ament_cmake'
+[0.434s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/4_fri/bwi_ros2/src/urg_node2'
+[0.434s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.434s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/4_fri/bwi_ros2/build/velodyne_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/lidar/velodyne/velodyne_msgs -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/velodyne_msgs
+[0.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/4_fri/bwi_ros2/build/apriltag_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/apriltag_ros/apriltag_msgs -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/apriltag_msgs
+[0.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/4_fri/bwi_ros2/build/libsegwayrmp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/libsegwayrmp/libsegwayrmp -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/libsegwayrmp
+[0.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/4_fri/bwi_ros2/build/velodyne_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/lidar/velodyne/velodyne_laserscan -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/velodyne_laserscan
+[0.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/4_fri/bwi_ros2/build/azure_kinect_ros_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/Azure_Kinect_ROS_Driver -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/azure_kinect_ros_driver
+[0.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/4_fri/bwi_ros2/build/bwi_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/bwi_ros2_common/bwi_launch -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/bwi_launch
+[0.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/4_fri/bwi_ros2/build/nav2_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/bwi_ros2_common/nav2_bringup -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/nav2_bringup
+[0.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/4_fri/bwi_ros2/build/ros2_laser_scan_merger': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/lidar/ros2_laser_scan_merger -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/ros2_laser_scan_merger
+[0.910s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/4_fri/bwi_ros2/src/lidar/scan_filter'
+[0.910s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.910s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.330s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/4_fri/bwi_ros2/src/lidar/scan_prox_filter'
+[1.331s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.331s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/4_fri/bwi_ros2/build/segbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/segbot_description -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/segbot_description
+[1.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/4_fri/bwi_ros2/build/urg_node2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/urg_node2 -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/urg_node2
+[1.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/4_fri/bwi_ros2/build/nav2_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/bwi_ros2_common/nav2_bringup -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/nav2_bringup
+[1.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/4_fri/bwi_ros2/build/nav2_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/nav2_bringup -- -j12 -l12
+[1.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/4_fri/bwi_ros2/build/bwi_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/bwi_ros2_common/bwi_launch -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/bwi_launch
+[1.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/4_fri/bwi_ros2/build/bwi_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/bwi_launch -- -j12 -l12
+[1.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/4_fri/bwi_ros2/build/libsegwayrmp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/libsegwayrmp/libsegwayrmp -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/libsegwayrmp
+[1.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/4_fri/bwi_ros2/build/libsegwayrmp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/libsegwayrmp -- -j12 -l12
+[1.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/4_fri/bwi_ros2/build/bwi_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/bwi_launch -- -j12 -l12
+[1.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/4_fri/bwi_ros2/build/bwi_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/bwi_launch
+[1.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/4_fri/bwi_ros2/build/nav2_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/nav2_bringup -- -j12 -l12
+[1.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/4_fri/bwi_ros2/build/nav2_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/nav2_bringup
+[1.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/4_fri/bwi_ros2/src/lidar/scan_prox_filter': PYTHONPATH=/home/4_fri/bwi_ros2/build/scan_prox_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/4_fri/bwi_ros2/install/scan_prox_filter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/scan_prox_filter build --build-base /home/4_fri/bwi_ros2/build/scan_prox_filter/build install --record /home/4_fri/bwi_ros2/build/scan_prox_filter/install.log --single-version-externally-managed install_data
+[2.069s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/4_fri/bwi_ros2/src/lidar/scan_filter': PYTHONPATH=/home/4_fri/bwi_ros2/build/scan_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/4_fri/bwi_ros2/install/scan_filter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/scan_filter build --build-base /home/4_fri/bwi_ros2/build/scan_filter/build install --record /home/4_fri/bwi_ros2/build/scan_filter/install.log --single-version-externally-managed install_data
+[2.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/4_fri/bwi_ros2/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/lidar/velodyne/velodyne_laserscan -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/velodyne_laserscan
+[2.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/4_fri/bwi_ros2/build/velodyne_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/velodyne_laserscan -- -j12 -l12
+[2.579s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bwi_launch)
+[2.604s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/bwi_launch' for CMake module files
+[2.605s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/bwi_launch' for CMake config files
+[2.605s] Level 1:colcon.colcon_core.shell:create_environment_hook('bwi_launch', 'cmake_prefix_path')
+[2.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/bwi_launch/share/bwi_launch/hook/cmake_prefix_path.ps1'
+[2.606s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/4_fri/bwi_ros2/install/bwi_launch/share/bwi_launch/hook/cmake_prefix_path.dsv'
+[2.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/bwi_launch/share/bwi_launch/hook/cmake_prefix_path.sh'
+[2.608s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/bwi_launch/bin'
+[2.610s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/bwi_launch/lib/pkgconfig/bwi_launch.pc'
+[2.611s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/bwi_launch/lib/python3.10/site-packages'
+[2.611s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/bwi_launch/bin'
+[2.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/bwi_launch/share/bwi_launch/package.ps1'
+[2.612s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/4_fri/bwi_ros2/install/bwi_launch/share/bwi_launch/package.dsv'
+[2.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/bwi_launch/share/bwi_launch/package.sh'
+[2.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/4_fri/bwi_ros2/build/bwi_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/bwi_launch
+[2.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/bwi_launch/share/bwi_launch/package.bash'
+[2.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/bwi_launch/share/bwi_launch/package.zsh'
+[2.624s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/4_fri/bwi_ros2/install/bwi_launch/share/colcon-core/packages/bwi_launch)
+[2.626s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bwi_launch)
+[2.626s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/bwi_launch' for CMake module files
+[2.627s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/bwi_launch' for CMake config files
+[2.627s] Level 1:colcon.colcon_core.shell:create_environment_hook('bwi_launch', 'cmake_prefix_path')
+[2.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/bwi_launch/share/bwi_launch/hook/cmake_prefix_path.ps1'
+[2.628s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/4_fri/bwi_ros2/install/bwi_launch/share/bwi_launch/hook/cmake_prefix_path.dsv'
+[2.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/bwi_launch/share/bwi_launch/hook/cmake_prefix_path.sh'
+[2.630s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/bwi_launch/bin'
+[2.630s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/bwi_launch/lib/pkgconfig/bwi_launch.pc'
+[2.630s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/bwi_launch/lib/python3.10/site-packages'
+[2.630s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/bwi_launch/bin'
+[2.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/bwi_launch/share/bwi_launch/package.ps1'
+[2.632s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/4_fri/bwi_ros2/install/bwi_launch/share/bwi_launch/package.dsv'
+[2.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/bwi_launch/share/bwi_launch/package.sh'
+[2.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/bwi_launch/share/bwi_launch/package.bash'
+[2.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/bwi_launch/share/bwi_launch/package.zsh'
+[2.640s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/4_fri/bwi_ros2/install/bwi_launch/share/colcon-core/packages/bwi_launch)
+[2.643s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/scan_prox_filter' for CMake module files
+[2.647s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/scan_prox_filter' for CMake config files
+[2.647s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/scan_prox_filter/lib'
+[2.648s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/scan_prox_filter/bin'
+[2.648s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/scan_prox_filter/lib/pkgconfig/scan_prox_filter.pc'
+[2.648s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/scan_prox_filter/lib/python3.10/site-packages'
+[2.648s] Level 1:colcon.colcon_core.shell:create_environment_hook('scan_prox_filter', 'pythonpath')
+[2.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/scan_prox_filter/share/scan_prox_filter/hook/pythonpath.ps1'
+[2.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/4_fri/bwi_ros2/src/lidar/scan_prox_filter' returned '0': PYTHONPATH=/home/4_fri/bwi_ros2/build/scan_prox_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/4_fri/bwi_ros2/install/scan_prox_filter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/scan_prox_filter build --build-base /home/4_fri/bwi_ros2/build/scan_prox_filter/build install --record /home/4_fri/bwi_ros2/build/scan_prox_filter/install.log --single-version-externally-managed install_data
+[2.654s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/4_fri/bwi_ros2/install/scan_prox_filter/share/scan_prox_filter/hook/pythonpath.dsv'
+[2.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/scan_prox_filter/share/scan_prox_filter/hook/pythonpath.sh'
+[2.655s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/scan_prox_filter/bin'
+[2.655s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scan_prox_filter)
+[2.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/scan_prox_filter/share/scan_prox_filter/package.ps1'
+[2.656s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/4_fri/bwi_ros2/install/scan_prox_filter/share/scan_prox_filter/package.dsv'
+[2.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/scan_prox_filter/share/scan_prox_filter/package.sh'
+[2.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/scan_prox_filter/share/scan_prox_filter/package.bash'
+[2.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/scan_prox_filter/share/scan_prox_filter/package.zsh'
+[2.658s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/4_fri/bwi_ros2/install/scan_prox_filter/share/colcon-core/packages/scan_prox_filter)
+[2.658s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_bringup)
+[2.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/4_fri/bwi_ros2/build/nav2_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/nav2_bringup
+[2.659s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/nav2_bringup' for CMake module files
+[2.660s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/nav2_bringup' for CMake config files
+[2.661s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_bringup', 'cmake_prefix_path')
+[2.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/hook/cmake_prefix_path.ps1'
+[2.662s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/hook/cmake_prefix_path.dsv'
+[2.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/hook/cmake_prefix_path.sh'
+[2.663s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/nav2_bringup/bin'
+[2.663s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/nav2_bringup/lib/pkgconfig/nav2_bringup.pc'
+[2.663s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/nav2_bringup/lib/python3.10/site-packages'
+[2.664s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/nav2_bringup/bin'
+[2.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/package.ps1'
+[2.665s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/package.dsv'
+[2.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/package.sh'
+[2.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/package.bash'
+[2.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/package.zsh'
+[2.669s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/4_fri/bwi_ros2/install/nav2_bringup/share/colcon-core/packages/nav2_bringup)
+[2.669s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_bringup)
+[2.670s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/nav2_bringup' for CMake module files
+[2.670s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/nav2_bringup' for CMake config files
+[2.671s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_bringup', 'cmake_prefix_path')
+[2.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/hook/cmake_prefix_path.ps1'
+[2.671s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/hook/cmake_prefix_path.dsv'
+[2.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/hook/cmake_prefix_path.sh'
+[2.673s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/nav2_bringup/bin'
+[2.673s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/nav2_bringup/lib/pkgconfig/nav2_bringup.pc'
+[2.674s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/nav2_bringup/lib/python3.10/site-packages'
+[2.674s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/nav2_bringup/bin'
+[2.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/package.ps1'
+[2.677s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/package.dsv'
+[2.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/package.sh'
+[2.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/package.bash'
+[2.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/nav2_bringup/share/nav2_bringup/package.zsh'
+[2.683s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/4_fri/bwi_ros2/install/nav2_bringup/share/colcon-core/packages/nav2_bringup)
+[2.689s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/scan_filter' for CMake module files
+[2.689s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/4_fri/bwi_ros2/src/lidar/scan_filter' returned '0': PYTHONPATH=/home/4_fri/bwi_ros2/build/scan_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/4_fri/bwi_ros2/install/scan_filter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/scan_filter build --build-base /home/4_fri/bwi_ros2/build/scan_filter/build install --record /home/4_fri/bwi_ros2/build/scan_filter/install.log --single-version-externally-managed install_data
+[2.690s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/scan_filter' for CMake config files
+[2.691s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/scan_filter/lib'
+[2.691s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/scan_filter/bin'
+[2.692s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/scan_filter/lib/pkgconfig/scan_filter.pc'
+[2.692s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/scan_filter/lib/python3.10/site-packages'
+[2.692s] Level 1:colcon.colcon_core.shell:create_environment_hook('scan_filter', 'pythonpath')
+[2.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/scan_filter/share/scan_filter/hook/pythonpath.ps1'
+[2.693s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/4_fri/bwi_ros2/install/scan_filter/share/scan_filter/hook/pythonpath.dsv'
+[2.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/scan_filter/share/scan_filter/hook/pythonpath.sh'
+[2.694s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/scan_filter/bin'
+[2.694s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scan_filter)
+[2.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/scan_filter/share/scan_filter/package.ps1'
+[2.695s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/4_fri/bwi_ros2/install/scan_filter/share/scan_filter/package.dsv'
+[2.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/scan_filter/share/scan_filter/package.sh'
+[2.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/scan_filter/share/scan_filter/package.bash'
+[2.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/scan_filter/share/scan_filter/package.zsh'
+[2.697s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/4_fri/bwi_ros2/install/scan_filter/share/colcon-core/packages/scan_filter)
+[2.895s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/4_fri/bwi_ros2/build/azure_kinect_ros_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/Azure_Kinect_ROS_Driver -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/azure_kinect_ros_driver
+[2.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/4_fri/bwi_ros2/build/azure_kinect_ros_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/azure_kinect_ros_driver -- -j12 -l12
+[3.402s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/4_fri/bwi_ros2/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/lidar/velodyne/velodyne_msgs -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/velodyne_msgs
+[3.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/4_fri/bwi_ros2/build/velodyne_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/velodyne_msgs -- -j12 -l12
+[3.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/4_fri/bwi_ros2/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/apriltag_ros/apriltag_msgs -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/apriltag_msgs
+[3.461s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/4_fri/bwi_ros2/build/apriltag_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/apriltag_msgs -- -j12 -l12
+[3.566s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/4_fri/bwi_ros2/build/segbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/segbot_description -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/segbot_description
+[3.566s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/4_fri/bwi_ros2/build/segbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/segbot_description -- -j12 -l12
+[3.672s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/4_fri/bwi_ros2/build/segbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/segbot_description -- -j12 -l12
+[3.673s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/4_fri/bwi_ros2/build/segbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/segbot_description
+[3.710s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(segbot_description)
+[3.710s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/segbot_description' for CMake module files
+[3.711s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/segbot_description' for CMake config files
+[3.711s] Level 1:colcon.colcon_core.shell:create_environment_hook('segbot_description', 'cmake_prefix_path')
+[3.711s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/segbot_description/share/segbot_description/hook/cmake_prefix_path.ps1'
+[3.712s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/4_fri/bwi_ros2/install/segbot_description/share/segbot_description/hook/cmake_prefix_path.dsv'
+[3.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/segbot_description/share/segbot_description/hook/cmake_prefix_path.sh'
+[3.719s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/segbot_description/bin'
+[3.720s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/segbot_description/lib/pkgconfig/segbot_description.pc'
+[3.720s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/segbot_description/lib/python3.10/site-packages'
+[3.721s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/segbot_description/bin'
+[3.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/segbot_description/share/segbot_description/package.ps1'
+[3.722s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/4_fri/bwi_ros2/install/segbot_description/share/segbot_description/package.dsv'
+[3.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/segbot_description/share/segbot_description/package.sh'
+[3.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/segbot_description/share/segbot_description/package.bash'
+[3.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/segbot_description/share/segbot_description/package.zsh'
+[3.724s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/4_fri/bwi_ros2/install/segbot_description/share/colcon-core/packages/segbot_description)
+[3.725s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(segbot_description)
+[3.726s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/segbot_description' for CMake module files
+[3.727s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/4_fri/bwi_ros2/build/segbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/segbot_description
+[3.729s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/segbot_description' for CMake config files
+[3.730s] Level 1:colcon.colcon_core.shell:create_environment_hook('segbot_description', 'cmake_prefix_path')
+[3.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/segbot_description/share/segbot_description/hook/cmake_prefix_path.ps1'
+[3.732s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/4_fri/bwi_ros2/install/segbot_description/share/segbot_description/hook/cmake_prefix_path.dsv'
+[3.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/segbot_description/share/segbot_description/hook/cmake_prefix_path.sh'
+[3.738s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/segbot_description/bin'
+[3.738s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/segbot_description/lib/pkgconfig/segbot_description.pc'
+[3.739s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/segbot_description/lib/python3.10/site-packages'
+[3.739s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/segbot_description/bin'
+[3.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/segbot_description/share/segbot_description/package.ps1'
+[3.741s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/4_fri/bwi_ros2/install/segbot_description/share/segbot_description/package.dsv'
+[3.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/segbot_description/share/segbot_description/package.sh'
+[3.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/segbot_description/share/segbot_description/package.bash'
+[3.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/segbot_description/share/segbot_description/package.zsh'
+[3.746s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/4_fri/bwi_ros2/install/segbot_description/share/colcon-core/packages/segbot_description)
+[3.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/4_fri/bwi_ros2/build/urg_node2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/urg_node2 -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/urg_node2
+[3.793s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/4_fri/bwi_ros2/build/urg_node2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/urg_node2 -- -j12 -l12
+[8.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/4_fri/bwi_ros2/build/ros2_laser_scan_merger' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/lidar/ros2_laser_scan_merger -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/ros2_laser_scan_merger
+[8.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/4_fri/bwi_ros2/build/ros2_laser_scan_merger': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/ros2_laser_scan_merger -- -j12 -l12
+[11.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/4_fri/bwi_ros2/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/apriltag_msgs -- -j12 -l12
+[11.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/4_fri/bwi_ros2/build/apriltag_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/apriltag_msgs
+[11.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/4_fri/bwi_ros2/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/velodyne_msgs -- -j12 -l12
+[11.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/4_fri/bwi_ros2/build/velodyne_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/velodyne_msgs
+[11.434s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_msgs)
+[11.434s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/apriltag_msgs' for CMake module files
+[11.435s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/apriltag_msgs' for CMake config files
+[11.436s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_msgs', 'cmake_prefix_path')
+[11.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/hook/cmake_prefix_path.ps1'
+[11.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/4_fri/bwi_ros2/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/apriltag_msgs
+[11.444s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/hook/cmake_prefix_path.dsv'
+[11.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/hook/cmake_prefix_path.sh'
+[11.448s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/apriltag_msgs/lib'
+[11.448s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_msgs', 'ld_library_path_lib')
+[11.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/hook/ld_library_path_lib.ps1'
+[11.449s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/hook/ld_library_path_lib.dsv'
+[11.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/hook/ld_library_path_lib.sh'
+[11.454s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/apriltag_msgs/bin'
+[11.455s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/apriltag_msgs/lib/pkgconfig/apriltag_msgs.pc'
+[11.455s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/apriltag_msgs/lib/python3.10/site-packages'
+[11.455s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/apriltag_msgs/bin'
+[11.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/package.ps1'
+[11.466s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/package.dsv'
+[11.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/package.sh'
+[11.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/package.bash'
+[11.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/package.zsh'
+[11.485s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/4_fri/bwi_ros2/install/apriltag_msgs/share/colcon-core/packages/apriltag_msgs)
+[11.486s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_msgs)
+[11.486s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/apriltag_msgs' for CMake module files
+[11.491s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/apriltag_msgs' for CMake config files
+[11.491s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_msgs', 'cmake_prefix_path')
+[11.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/hook/cmake_prefix_path.ps1'
+[11.493s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/hook/cmake_prefix_path.dsv'
+[11.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/hook/cmake_prefix_path.sh'
+[11.497s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/apriltag_msgs/lib'
+[11.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_msgs', 'ld_library_path_lib')
+[11.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/hook/ld_library_path_lib.ps1'
+[11.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/hook/ld_library_path_lib.dsv'
+[11.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/hook/ld_library_path_lib.sh'
+[11.499s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/apriltag_msgs/bin'
+[11.499s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/apriltag_msgs/lib/pkgconfig/apriltag_msgs.pc'
+[11.499s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/apriltag_msgs/lib/python3.10/site-packages'
+[11.500s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/apriltag_msgs/bin'
+[11.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/package.ps1'
+[11.501s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/package.dsv'
+[11.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/package.sh'
+[11.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/package.bash'
+[11.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/package.zsh'
+[11.504s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/4_fri/bwi_ros2/install/apriltag_msgs/share/colcon-core/packages/apriltag_msgs)
+[11.505s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/4_fri/bwi_ros2/src/apriltag_ros/apriltag_ros' with build type 'ament_cmake'
+[11.505s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/4_fri/bwi_ros2/src/apriltag_ros/apriltag_ros'
+[11.506s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.506s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/4_fri/bwi_ros2/build/apriltag_ros': AMENT_PREFIX_PATH=/home/4_fri/bwi_ros2/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/4_fri/bwi_ros2/install/apriltag_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/4_fri/bwi_ros2/install/apriltag_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/4_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/4_fri/bwi_ros2/src/apriltag_ros/apriltag_ros -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/apriltag_ros
+[11.635s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_msgs)
+[11.636s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/velodyne_msgs' for CMake module files
+[11.636s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/velodyne_msgs' for CMake config files
+[11.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_msgs', 'cmake_prefix_path')
+[11.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.ps1'
+[11.638s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/4_fri/bwi_ros2/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.dsv'
+[11.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/4_fri/bwi_ros2/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/velodyne_msgs
+[11.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.sh'
+[11.640s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/velodyne_msgs/lib'
+[11.640s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_msgs', 'ld_library_path_lib')
+[11.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.ps1'
+[11.641s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/4_fri/bwi_ros2/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.dsv'
+[11.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.sh'
+[11.642s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/velodyne_msgs/bin'
+[11.642s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/velodyne_msgs/lib/pkgconfig/velodyne_msgs.pc'
+[11.644s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/velodyne_msgs/lib/python3.10/site-packages'
+[11.644s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/velodyne_msgs/bin'
+[11.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/velodyne_msgs/share/velodyne_msgs/package.ps1'
+[11.648s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/4_fri/bwi_ros2/install/velodyne_msgs/share/velodyne_msgs/package.dsv'
+[11.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/velodyne_msgs/share/velodyne_msgs/package.sh'
+[11.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/velodyne_msgs/share/velodyne_msgs/package.bash'
+[11.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/velodyne_msgs/share/velodyne_msgs/package.zsh'
+[11.658s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/4_fri/bwi_ros2/install/velodyne_msgs/share/colcon-core/packages/velodyne_msgs)
+[11.662s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_msgs)
+[11.663s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/velodyne_msgs' for CMake module files
+[11.664s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/velodyne_msgs' for CMake config files
+[11.664s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_msgs', 'cmake_prefix_path')
+[11.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.ps1'
+[11.669s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/4_fri/bwi_ros2/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.dsv'
+[11.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.sh'
+[11.670s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/velodyne_msgs/lib'
+[11.670s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_msgs', 'ld_library_path_lib')
+[11.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.ps1'
+[11.675s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/4_fri/bwi_ros2/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.dsv'
+[11.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.sh'
+[11.676s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/velodyne_msgs/bin'
+[11.676s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/velodyne_msgs/lib/pkgconfig/velodyne_msgs.pc'
+[11.676s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/velodyne_msgs/lib/python3.10/site-packages'
+[11.677s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/velodyne_msgs/bin'
+[11.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/velodyne_msgs/share/velodyne_msgs/package.ps1'
+[11.681s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/4_fri/bwi_ros2/install/velodyne_msgs/share/velodyne_msgs/package.dsv'
+[11.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/velodyne_msgs/share/velodyne_msgs/package.sh'
+[11.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/velodyne_msgs/share/velodyne_msgs/package.bash'
+[11.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/velodyne_msgs/share/velodyne_msgs/package.zsh'
+[11.687s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/4_fri/bwi_ros2/install/velodyne_msgs/share/colcon-core/packages/velodyne_msgs)
+[11.689s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/4_fri/bwi_ros2/src/lidar/velodyne/velodyne_driver' with build type 'ament_cmake'
+[11.689s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/4_fri/bwi_ros2/src/lidar/velodyne/velodyne_driver'
+[11.689s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.689s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.703s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/4_fri/bwi_ros2/src/lidar/velodyne/velodyne_pointcloud' with build type 'ament_cmake'
+[11.703s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/4_fri/bwi_ros2/src/lidar/velodyne/velodyne_pointcloud'
+[11.704s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.704s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/4_fri/bwi_ros2/build/velodyne_driver': AMENT_PREFIX_PATH=/home/4_fri/bwi_ros2/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/4_fri/bwi_ros2/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/4_fri/bwi_ros2/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/4_fri/bwi_ros2/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/4_fri/bwi_ros2/src/lidar/velodyne/velodyne_driver -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/velodyne_driver
+[11.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/4_fri/bwi_ros2/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/home/4_fri/bwi_ros2/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/4_fri/bwi_ros2/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/4_fri/bwi_ros2/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/4_fri/bwi_ros2/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/4_fri/bwi_ros2/src/lidar/velodyne/velodyne_pointcloud -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/velodyne_pointcloud
+[13.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/4_fri/bwi_ros2/build/libsegwayrmp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/libsegwayrmp -- -j12 -l12
+[13.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/4_fri/bwi_ros2/build/libsegwayrmp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/libsegwayrmp
+[13.495s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(libsegwayrmp)
+[13.499s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/libsegwayrmp' for CMake module files
+[13.500s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/libsegwayrmp' for CMake config files
+[13.500s] Level 1:colcon.colcon_core.shell:create_environment_hook('libsegwayrmp', 'cmake_prefix_path')
+[13.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/hook/cmake_prefix_path.ps1'
+[13.501s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/hook/cmake_prefix_path.dsv'
+[13.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/hook/cmake_prefix_path.sh'
+[13.506s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/libsegwayrmp/lib'
+[13.506s] Level 1:colcon.colcon_core.shell:create_environment_hook('libsegwayrmp', 'ld_library_path_lib')
+[13.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/hook/ld_library_path_lib.ps1'
+[13.507s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/hook/ld_library_path_lib.dsv'
+[13.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/hook/ld_library_path_lib.sh'
+[13.511s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/libsegwayrmp/bin'
+[13.512s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/libsegwayrmp/lib/pkgconfig/libsegwayrmp.pc'
+[13.512s] Level 1:colcon.colcon_core.shell:create_environment_hook('libsegwayrmp', 'pkg_config')
+[13.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/hook/pkg_config.ps1'
+[13.513s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/hook/pkg_config.dsv'
+[13.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/4_fri/bwi_ros2/build/libsegwayrmp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/libsegwayrmp
+[13.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/hook/pkg_config.sh'
+[13.519s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/libsegwayrmp/lib/python3.10/site-packages'
+[13.519s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/libsegwayrmp/bin'
+[13.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/package.ps1'
+[13.520s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/package.dsv'
+[13.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/package.sh'
+[13.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/package.bash'
+[13.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/package.zsh'
+[13.526s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/4_fri/bwi_ros2/install/libsegwayrmp/share/colcon-core/packages/libsegwayrmp)
+[13.527s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(libsegwayrmp)
+[13.527s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/libsegwayrmp' for CMake module files
+[13.528s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/libsegwayrmp' for CMake config files
+[13.533s] Level 1:colcon.colcon_core.shell:create_environment_hook('libsegwayrmp', 'cmake_prefix_path')
+[13.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/hook/cmake_prefix_path.ps1'
+[13.534s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/hook/cmake_prefix_path.dsv'
+[13.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/hook/cmake_prefix_path.sh'
+[13.535s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/libsegwayrmp/lib'
+[13.535s] Level 1:colcon.colcon_core.shell:create_environment_hook('libsegwayrmp', 'ld_library_path_lib')
+[13.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/hook/ld_library_path_lib.ps1'
+[13.539s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/hook/ld_library_path_lib.dsv'
+[13.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/hook/ld_library_path_lib.sh'
+[13.540s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/libsegwayrmp/bin'
+[13.540s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/libsegwayrmp/lib/pkgconfig/libsegwayrmp.pc'
+[13.540s] Level 1:colcon.colcon_core.shell:create_environment_hook('libsegwayrmp', 'pkg_config')
+[13.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/hook/pkg_config.ps1'
+[13.541s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/hook/pkg_config.dsv'
+[13.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/hook/pkg_config.sh'
+[13.544s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/libsegwayrmp/lib/python3.10/site-packages'
+[13.544s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/libsegwayrmp/bin'
+[13.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/package.ps1'
+[13.545s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/package.dsv'
+[13.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/package.sh'
+[13.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/package.bash'
+[13.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/libsegwayrmp/share/libsegwayrmp/package.zsh'
+[13.555s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/4_fri/bwi_ros2/install/libsegwayrmp/share/colcon-core/packages/libsegwayrmp)
+[13.555s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/4_fri/bwi_ros2/src/segway_rmp_ros2' with build type 'ament_cmake'
+[13.556s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/4_fri/bwi_ros2/src/segway_rmp_ros2'
+[13.557s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.557s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/4_fri/bwi_ros2/build/segway_rmp_ros2': AMENT_PREFIX_PATH=/home/4_fri/bwi_ros2/install/libsegwayrmp:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/4_fri/bwi_ros2/install/libsegwayrmp:/opt/ros/humble LD_LIBRARY_PATH=/home/4_fri/bwi_ros2/install/libsegwayrmp/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/4_fri/bwi_ros2/install/libsegwayrmp/lib/pkgconfig /usr/bin/cmake /home/4_fri/bwi_ros2/src/segway_rmp_ros2 -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/segway_rmp_ros2
+[14.740s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/4_fri/bwi_ros2/build/apriltag_ros' returned '0': AMENT_PREFIX_PATH=/home/4_fri/bwi_ros2/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/4_fri/bwi_ros2/install/apriltag_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/4_fri/bwi_ros2/install/apriltag_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/4_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/4_fri/bwi_ros2/src/apriltag_ros/apriltag_ros -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/apriltag_ros
+[14.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/4_fri/bwi_ros2/build/apriltag_ros': AMENT_PREFIX_PATH=/home/4_fri/bwi_ros2/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/4_fri/bwi_ros2/install/apriltag_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/4_fri/bwi_ros2/install/apriltag_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/4_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/apriltag_ros -- -j12 -l12
+[14.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/4_fri/bwi_ros2/build/velodyne_driver' returned '0': AMENT_PREFIX_PATH=/home/4_fri/bwi_ros2/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/4_fri/bwi_ros2/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/4_fri/bwi_ros2/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/4_fri/bwi_ros2/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/4_fri/bwi_ros2/src/lidar/velodyne/velodyne_driver -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/velodyne_driver
+[14.766s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/4_fri/bwi_ros2/build/velodyne_driver': AMENT_PREFIX_PATH=/home/4_fri/bwi_ros2/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/4_fri/bwi_ros2/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/4_fri/bwi_ros2/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/4_fri/bwi_ros2/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/velodyne_driver -- -j12 -l12
+[15.127s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/4_fri/bwi_ros2/build/velodyne_pointcloud' returned '0': AMENT_PREFIX_PATH=/home/4_fri/bwi_ros2/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/4_fri/bwi_ros2/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/4_fri/bwi_ros2/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/4_fri/bwi_ros2/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/4_fri/bwi_ros2/src/lidar/velodyne/velodyne_pointcloud -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/velodyne_pointcloud
+[15.128s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/4_fri/bwi_ros2/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/home/4_fri/bwi_ros2/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/4_fri/bwi_ros2/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/4_fri/bwi_ros2/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/4_fri/bwi_ros2/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/velodyne_pointcloud -- -j12 -l12
+[15.148s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(azure_kinect_ros_driver)
+[15.149s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/azure_kinect_ros_driver' for CMake module files
+[15.149s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/azure_kinect_ros_driver' for CMake config files
+[15.149s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/azure_kinect_ros_driver/bin'
+[15.149s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/azure_kinect_ros_driver/lib/pkgconfig/azure_kinect_ros_driver.pc'
+[15.150s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/azure_kinect_ros_driver/lib/python3.10/site-packages'
+[15.150s] Level 1:colcon.colcon_core.environment:checking '/home/4_fri/bwi_ros2/install/azure_kinect_ros_driver/bin'
+[15.152s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/4_fri/bwi_ros2/build/azure_kinect_ros_driver' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/azure_kinect_ros_driver -- -j12 -l12
+[15.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/azure_kinect_ros_driver/share/azure_kinect_ros_driver/package.ps1'
+[15.158s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/4_fri/bwi_ros2/install/azure_kinect_ros_driver/share/azure_kinect_ros_driver/package.dsv'
+[15.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/azure_kinect_ros_driver/share/azure_kinect_ros_driver/package.sh'
+[15.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/azure_kinect_ros_driver/share/azure_kinect_ros_driver/package.bash'
+[15.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/4_fri/bwi_ros2/install/azure_kinect_ros_driver/share/azure_kinect_ros_driver/package.zsh'
+[15.165s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/4_fri/bwi_ros2/install/azure_kinect_ros_driver/share/colcon-core/packages/azure_kinect_ros_driver)
+[46.411s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[46.411s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[46.411s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[46.411s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[46.418s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[46.418s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[46.418s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[46.439s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[46.439s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/4_fri/bwi_ros2/install/local_setup.ps1'
+[46.440s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/4_fri/bwi_ros2/install/_local_setup_util_ps1.py'
+[46.441s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/4_fri/bwi_ros2/install/setup.ps1'
+[46.442s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/4_fri/bwi_ros2/install/local_setup.sh'
+[46.443s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/4_fri/bwi_ros2/install/_local_setup_util_sh.py'
+[46.443s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/4_fri/bwi_ros2/install/setup.sh'
+[46.444s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/4_fri/bwi_ros2/install/local_setup.bash'
+[46.445s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/4_fri/bwi_ros2/install/setup.bash'
+[46.445s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/4_fri/bwi_ros2/install/local_setup.zsh'
+[46.446s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/4_fri/bwi_ros2/install/setup.zsh'

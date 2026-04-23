@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+
+<root
+      xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <xacro:macro name="segbot_wheel" params="suffix parent *origin">
+    <joint name="${parent}_${suffix}_wheel_joint" type="continuous">
+      <xacro:insert_block name="origin" />
+      <axis xyz="0 1 0" />
+      <anchor xyz="0 0 0" />
+      <limit effort="100" velocity="100" />
+      <joint_properties damping="0.0" friction="0.0" />
+      <parent link="${parent}" />
+      <child link="${parent}_${suffix}_wheel_link" />
+    </joint>
+
+    <link name="${parent}_${suffix}_wheel_link">
+      <inertial>
+        <mass value="5" />
+        <origin xyz=" 0 0 0 " />
+        <inertia  ixx="0.076" ixy="0.0" ixz="0.0"
+          iyy="0.144" iyz="0.0"
+          izz="0.076" />
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh filename="package://segbot_description/meshes/rmp50-${suffix}-wheel.dae" scale="0.022 0.022 0.022"/> 
+        </geometry>
+      </visual>
+      <xacro:segbot_wheel_collision suffix="${suffix}" />
+    </link>
+
+    <xacro:gazebo_segbot_wheel_surface parent="${parent}" suffix="${suffix}" />
+
+    <transmission name="${parent}_${suffix}_wheel_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <actuator name="${parent}_${suffix}_wheel_motor" />
+      <joint name="${parent}_${suffix}_wheel_joint">
+          <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </joint>
+      <mechanicalReduction>1.0</mechanicalReduction>
+    </transmission>
+
+  </xacro:macro>
+</root>
+

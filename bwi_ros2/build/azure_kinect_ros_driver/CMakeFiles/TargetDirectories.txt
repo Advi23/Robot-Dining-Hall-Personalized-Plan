@@ -1,0 +1,10 @@
+/home/4_fri/bwi_ros2/build/azure_kinect_ros_driver/CMakeFiles/uninstall.dir
+/home/4_fri/bwi_ros2/build/azure_kinect_ros_driver/CMakeFiles/azure_kinect_ros_driver_uninstall.dir
+/home/4_fri/bwi_ros2/build/azure_kinect_ros_driver/CMakeFiles/azure_kinect_ros_driver_node.dir
+/home/4_fri/bwi_ros2/build/azure_kinect_ros_driver/CMakeFiles/test.dir
+/home/4_fri/bwi_ros2/build/azure_kinect_ros_driver/CMakeFiles/edit_cache.dir
+/home/4_fri/bwi_ros2/build/azure_kinect_ros_driver/CMakeFiles/rebuild_cache.dir
+/home/4_fri/bwi_ros2/build/azure_kinect_ros_driver/CMakeFiles/list_install_components.dir
+/home/4_fri/bwi_ros2/build/azure_kinect_ros_driver/CMakeFiles/install.dir
+/home/4_fri/bwi_ros2/build/azure_kinect_ros_driver/CMakeFiles/install/local.dir
+/home/4_fri/bwi_ros2/build/azure_kinect_ros_driver/CMakeFiles/install/strip.dir

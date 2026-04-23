@@ -1,0 +1,6 @@
+Invoking command in '/home/4_fri/bwi_ros2/build/segbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/segbot_description -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/segbot_description
+Invoked command in '/home/4_fri/bwi_ros2/build/segbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/segbot_description -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/segbot_description
+Invoking command in '/home/4_fri/bwi_ros2/build/segbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/segbot_description -- -j12 -l12
+Invoked command in '/home/4_fri/bwi_ros2/build/segbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/segbot_description -- -j12 -l12
+Invoking command in '/home/4_fri/bwi_ros2/build/segbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/segbot_description
+Invoked command in '/home/4_fri/bwi_ros2/build/segbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/segbot_description

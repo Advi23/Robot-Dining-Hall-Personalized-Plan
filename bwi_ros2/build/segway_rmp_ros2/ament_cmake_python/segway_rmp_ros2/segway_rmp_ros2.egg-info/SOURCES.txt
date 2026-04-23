@@ -1,0 +1,9 @@
+setup.py
+segway_rmp_ros2/__init__.py
+segway_rmp_ros2.egg-info/PKG-INFO
+segway_rmp_ros2.egg-info/SOURCES.txt
+segway_rmp_ros2.egg-info/dependency_links.txt
+segway_rmp_ros2.egg-info/top_level.txt
+segway_rmp_ros2/msg/__init__.py
+segway_rmp_ros2/msg/_segway_status.py
+segway_rmp_ros2/msg/_segway_status_stamped.py

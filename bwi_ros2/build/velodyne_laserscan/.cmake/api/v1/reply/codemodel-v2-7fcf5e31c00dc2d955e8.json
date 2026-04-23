@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b27cfea93f6fcf81e25d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "velodyne_laserscan",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9ac3558d26f7cd01bf7b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "velodyne_laserscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-velodyne_laserscan-a6fd9f67208a621649db.json",
+					"name" : "velodyne_laserscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "velodyne_laserscan_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-velodyne_laserscan_node-1e088273ee0133cbac8d.json",
+					"name" : "velodyne_laserscan_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "velodyne_laserscan_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-velodyne_laserscan_uninstall-83a228965c925802f9f1.json",
+					"name" : "velodyne_laserscan_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/4_fri/bwi_ros2/build/velodyne_laserscan",
+		"source" : "/home/4_fri/bwi_ros2/src/lidar/velodyne/velodyne_laserscan"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

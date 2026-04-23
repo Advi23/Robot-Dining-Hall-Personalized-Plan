@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target follower_robot[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/follower_robot.dir/src/follower_robot.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/follower_robot.dir/src/FollowerRobotNode.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable follower_robot[0m
+[100%] Built target follower_robot
+-- Install configuration: ""
+-- Installing: /home/4_fri/bwi_ros2/install/follower_robot/lib/follower_robot/follower_robot
+-- Set runtime path of "/home/4_fri/bwi_ros2/install/follower_robot/lib/follower_robot/follower_robot" to ""
+-- Up-to-date: /home/4_fri/bwi_ros2/install/follower_robot/share/ament_index/resource_index/package_run_dependencies/follower_robot
+-- Up-to-date: /home/4_fri/bwi_ros2/install/follower_robot/share/ament_index/resource_index/parent_prefix_path/follower_robot
+-- Up-to-date: /home/4_fri/bwi_ros2/install/follower_robot/share/follower_robot/environment/ament_prefix_path.sh
+-- Up-to-date: /home/4_fri/bwi_ros2/install/follower_robot/share/follower_robot/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/4_fri/bwi_ros2/install/follower_robot/share/follower_robot/environment/path.sh
+-- Up-to-date: /home/4_fri/bwi_ros2/install/follower_robot/share/follower_robot/environment/path.dsv
+-- Up-to-date: /home/4_fri/bwi_ros2/install/follower_robot/share/follower_robot/local_setup.bash
+-- Up-to-date: /home/4_fri/bwi_ros2/install/follower_robot/share/follower_robot/local_setup.sh
+-- Up-to-date: /home/4_fri/bwi_ros2/install/follower_robot/share/follower_robot/local_setup.zsh
+-- Up-to-date: /home/4_fri/bwi_ros2/install/follower_robot/share/follower_robot/local_setup.dsv
+-- Installing: /home/4_fri/bwi_ros2/install/follower_robot/share/follower_robot/package.dsv
+-- Up-to-date: /home/4_fri/bwi_ros2/install/follower_robot/share/ament_index/resource_index/packages/follower_robot
+-- Up-to-date: /home/4_fri/bwi_ros2/install/follower_robot/share/follower_robot/cmake/follower_robotConfig.cmake
+-- Up-to-date: /home/4_fri/bwi_ros2/install/follower_robot/share/follower_robot/cmake/follower_robotConfig-version.cmake
+-- Up-to-date: /home/4_fri/bwi_ros2/install/follower_robot/share/follower_robot/package.xml

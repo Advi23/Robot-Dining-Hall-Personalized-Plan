@@ -1,0 +1,20 @@
+[01m[K/home/4_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/src/MoveToTarget.cpp:[m[K In member function ‘[01m[Kvoid MoveToTarget::result_callback(const rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>::WrappedResult&)[m[K’:
+[01m[K/home/4_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/src/MoveToTarget.cpp:40:94:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresult[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   40 |     [01;35m[Kconst rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>::WrappedResult &result[m[K) {
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/4_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/src/FollowerRobotNode.cpp:[m[K In constructor ‘[01m[KFollowerRobotNode::FollowerRobotNode(double, double)[m[K’:
+[01m[K/home/4_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/src/FollowerRobotNode.cpp:31:5:[m[K [01;31m[Kerror: [m[K‘[01m[KgoToFixedGoal[m[K’ was not declared in this scope
+   31 |     [01;31m[KgoToFixedGoal[m[K(2.0, 3.0, 0.0);
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/4_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/src/FollowerRobotNode.cpp:[m[K At global scope:
+[01m[K/home/4_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/src/FollowerRobotNode.cpp:36:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid FollowerRobotNode::goToFixedGoal(double, double, double)[m[K’
+   36 | void [01;31m[KFollowerRobotNode[m[K::goToFixedGoal(double x, double y, double yaw)
+      |      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/4_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/src/FollowerRobotNode.cpp:36:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid FollowerRobotNode::goToFixedGoal(double, double, double)[m[K’
+In file included from [01m[K/home/4_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/src/FollowerRobotNode.cpp:1[m[K:
+[01m[K/home/4_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/include/follower_robot/FollowerRobotNode.h:19:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass FollowerRobotNode[m[K’ defined here
+   19 | class [01;36m[KFollowerRobotNode[m[K : public rclcpp::Node {
+      |       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/follower_robot.dir/build.make:76: CMakeFiles/follower_robot.dir/src/FollowerRobotNode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/follower_robot.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "segway_rmp_ros2__py",
+		"source" : "/home/4_fri/bwi_ros2/build/segway_rmp_ros2/segway_rmp_ros2__py"
+	}
+}
