@@ -5,28 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Robot Dining Hall Personalized Plan</title>
-    <!-- Google Fonts: Outfit -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <video autoplay muted loop id="bg-video">
-        <!-- We will use a CSS fall-back background, but this adds flavor if we want video later. Leaving empty for css background -->
-    </video>
-    <div class="background-effects">
-        <div class="glow glow-1"></div>
-        <div class="glow glow-2"></div>
-    </div>
-
     <div class="container">
         <div class="header">
-            <h1 class="title">Robot Dining Hall <br><span class="highlight">Personalized Plan</span></h1>
-            <p class="subtitle">Fill out your dining hall preferences and let a robot help you become more nutritious!
-            </p>
+            <h1 class="title">Robot Dining Hall<br><span class="highlight">Personalized Plan</span></h1>
+            <p class="subtitle">Fill out your dining preferences and let a robot build your meal plan.</p>
             <div class="progress-bar-container">
                 <div class="progress-bar" id="progress-bar"></div>
             </div>
@@ -68,7 +57,9 @@
 
                 <div class="question-group">
                     <label class="question-title">Health Considerations</label>
-                    <p class="question-desc" style="max-width: 600px; margin: 0 auto 15px auto;">This robot is NOT guaranteed to provide accurate medical advice and only suggests general diet patterns for these conditions. For a personalized plan, please consult a medical advisor.</p>
+                    <p class="question-desc disclaimer">This robot is NOT guaranteed to provide accurate medical advice
+                        and only suggests general diet patterns. For a personalized plan, please consult a medical
+                        advisor.</p>
                     <p class="question-desc">Select one option</p>
                     <div class="options-grid single-select" data-name="health">
                         <div class="option-btn radio-option logic-none" data-value="None">None</div>
@@ -138,7 +129,7 @@
                 </div>
 
                 <div class="question-group">
-                    <label class="question-title">Preferences for Fruits/Vegetables</label>
+                    <label class="question-title">Preferences for Fruits & Vegetables</label>
                     <p class="question-desc">Short answer</p>
                     <textarea class="text-area-input" name="fruit_veg_pref" rows="3"
                         placeholder="I love broccoli and apples..."></textarea>
@@ -191,7 +182,7 @@
             <!-- PAGE 4 -->
             <div class="form-page" id="page-4">
                 <div class="question-group">
-                    <label class="question-title">Any Foods You STRONGLY Dislike?</label>
+                    <label class="question-title">Any Foods You Strongly Dislike?</label>
                     <p class="question-desc">Short answer</p>
                     <textarea class="text-area-input" name="dislikes" rows="3"
                         placeholder="I despise mushrooms..."></textarea>
@@ -220,8 +211,7 @@
                     <p class="question-desc">Select one option</p>
                     <div class="options-grid single-select" data-name="foods_avoid">
                         <div class="option-btn radio-option logic-none" data-value="N/A">N/A</div>
-                        <div class="option-btn radio-option" data-value="Excess Amounts of Sugar">Excess Amounts of
-                            Sugar</div>
+                        <div class="option-btn radio-option" data-value="Excess Amounts of Sugar">Excess Sugar</div>
                         <div class="option-btn radio-option" data-value="Processed Foods">Processed Foods</div>
                         <div class="option-btn radio-option" data-value="Fried Foods">Fried Foods</div>
                         <div class="option-btn radio-option has-other" data-value="Other">Other</div>
@@ -243,27 +233,22 @@
             </div>
         </form>
 
-        <!-- Final completion view (hidden until submit) -->
+        <!-- Completion view -->
         <div class="completion-view" id="completion-view" style="display: none;">
             <div class="success-icon">✓</div>
-            <h2 class="title" style="margin-bottom: 20px;">Thank you for filling out this form!</h2>
-            <p class="subtitle" style="margin-bottom: 30px;">Your responses are greatly appreciated :)</p>
+            <h2 class="title">Thank you!</h2>
+            <p class="subtitle">Your preferences have been saved. The robot will build your plan shortly.</p>
             <div class="json-preview-container">
-                <p style="text-align: left; margin-bottom: 15px; font-weight: 500; color: var(--text-primary);">Output
-                    JSON (Internal Use):</p>
+                <p class="json-label">Output JSON (Internal Use)</p>
                 <pre id="json-output"></pre>
             </div>
-            <button type="button" class="btn btn-secondary" onclick="location.reload()" style="margin-top: 30px;">Start
-                Over</button>
+            <button type="button" class="btn btn-secondary" onclick="location.reload()">Start Over</button>
         </div>
     </div>
 
-    <!-- Error Toast -->
-    <div class="toast" id="error-toast">Please answer all required questions before proceeding.</div>
+    <div class="toast" id="error-toast">Please answer all questions before continuing.</div>
 
-    <!-- 1. Add Supabase Library Here -->
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-
     <script src="config.js"></script>
     <script src="script.js"></script>
 </body>
