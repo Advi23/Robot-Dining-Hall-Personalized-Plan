@@ -1,7 +1,0 @@
-[01m[K/home/4_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/src/FollowerRobotNode.cpp:[m[K In constructor ‘[01m[KFollowerRobotNode::FollowerRobotNode(double, double)[m[K’:
-[01m[K/home/4_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/src/FollowerRobotNode.cpp:18:12:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfollow_distance[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
-   18 |     [01;35m[Kdouble follow_distance[m[K,
-      |     [01;35m[K~~~~~~~^~~~~~~~~~~~~~~[m[K
-[01m[K/home/4_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/src/FollowerRobotNode.cpp:19:12:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktag_motion_threshold[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
-   19 |     [01;35m[Kdouble tag_motion_threshold[m[K):
-      |     [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K

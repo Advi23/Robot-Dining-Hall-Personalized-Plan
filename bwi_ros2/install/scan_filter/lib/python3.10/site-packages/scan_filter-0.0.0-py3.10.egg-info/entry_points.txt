@@ -1,3 +1,0 @@
-[console_scripts]
-scan_filter = scan_filter.scan_filter:main
-

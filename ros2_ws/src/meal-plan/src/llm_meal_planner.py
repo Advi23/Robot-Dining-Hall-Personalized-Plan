@@ -6,7 +6,7 @@ import re
 from pathlib import Path
 
 # Load environment variables from keys.env
-env_path = Path(__file__).resolve().parents[4] / 'keys.env'
+env_path = Path(__file__).resolve().parents[4] / 'keyspt2.env'
 if env_path.exists():
     with open(env_path) as f:
         for line in f:
@@ -20,6 +20,8 @@ SUPABASE_KEY = os.environ.get('SUPABASE_KEY', '')
 TABLE_NAME = 'dining_preferences'
 
 OPENROUTER_API_KEY = os.environ.get('OPENROUTER_API_KEY', '')
+
+
 
 DINING_MENU_URL = "https://hf-foodpro.austin.utexas.edu/foodpro/shortmenu.aspx?sName=University+Housing+and+Dining&locationNum=03&locationName=Kins+Dining&naFlag=1"
 

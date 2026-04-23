@@ -1,7 +1,0 @@
-{
-  "package_name": "velodyne_msgs",
-  "non_idl_tuples": [
-    "/home/4_fri/bwi_ros2/src/lidar/velodyne/velodyne_msgs:msg/VelodynePacket.msg",
-    "/home/4_fri/bwi_ros2/src/lidar/velodyne/velodyne_msgs:msg/VelodyneScan.msg"
-  ]
-}

@@ -1,6 +1,0 @@
-[ 25%] [32mBuilding CXX object CMakeFiles/spatial_transform_node.dir/src/spatial_transform_node.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/tf_listener_node.dir/src/tf_listener_node.cpp.o[0m
-[ 75%] [32m[1mLinking CXX executable spatial_transform_node[0m
-[ 75%] Built target spatial_transform_node
-[100%] [32m[1mLinking CXX executable tf_listener_node[0m
-[100%] Built target tf_listener_node

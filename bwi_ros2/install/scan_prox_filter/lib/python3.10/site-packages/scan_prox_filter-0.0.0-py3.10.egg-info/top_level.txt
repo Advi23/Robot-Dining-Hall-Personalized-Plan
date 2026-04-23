@@ -1,1 +1,0 @@
-scan_prox_filter
