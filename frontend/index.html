@@ -26,6 +26,16 @@
             <!-- PAGE 1 -->
             <div class="form-page active" id="page-1">
                 <div class="question-group">
+                    <label class="question-title">Which Dining Hall?</label>
+                    <p class="question-desc">Select one option</p>
+                    <div class="options-grid single-select" data-name="dining_hall">
+                        <div class="option-btn radio-option" data-value="Kins Dining">Kins Dining</div>
+                        <div class="option-btn radio-option" data-value="J2 Dining">J2 Dining</div>
+                        <div class="option-btn radio-option" data-value="JCL Dining">JCL Dining</div>
+                    </div>
+                </div>
+
+                <div class="question-group">
                     <label class="question-title">What Meal Are You Having?</label>
                     <p class="question-desc">Select one option</p>
                     <div class="options-grid single-select" data-name="meal">
@@ -219,6 +229,54 @@
                     <div class="other-input-container">
                         <input type="text" class="other-text-input" name="foods_avoid_other"
                             placeholder="Please specify...">
+                    </div>
+                </div>
+            </div>
+
+            <!-- PAGE 5 -->
+            <div class="form-page" id="page-5">
+                <div class="question-group">
+                    <label class="question-title">Calorie Goal Per Meal</label>
+                    <p class="question-desc">Select one option</p>
+                    <div class="options-grid single-select" data-name="calorie_goal">
+                        <div class="option-btn radio-option logic-none" data-value="No goal">No goal</div>
+                        <div class="option-btn radio-option" data-value="Light (under 500 cal)">Light &mdash; under 500 cal</div>
+                        <div class="option-btn radio-option" data-value="Moderate (500-700 cal)">Moderate &mdash; 500&ndash;700 cal</div>
+                        <div class="option-btn radio-option" data-value="Hearty (700+ cal)">Hearty &mdash; 700+ cal</div>
+                        <div class="option-btn radio-option has-other" data-value="Custom">Custom</div>
+                    </div>
+                    <div class="other-input-container">
+                        <input type="text" class="other-text-input" name="calorie_goal_custom" placeholder="e.g. 650 cal">
+                    </div>
+                </div>
+
+                <div class="question-group">
+                    <label class="question-title">Protein Goal Per Meal</label>
+                    <p class="question-desc">Select one option</p>
+                    <div class="options-grid single-select" data-name="protein_goal">
+                        <div class="option-btn radio-option logic-none" data-value="No goal">No goal</div>
+                        <div class="option-btn radio-option" data-value="Low (under 15g)">Low &mdash; under 15g</div>
+                        <div class="option-btn radio-option" data-value="Moderate (15-30g)">Moderate &mdash; 15&ndash;30g</div>
+                        <div class="option-btn radio-option" data-value="High (30g+)">High &mdash; 30g+</div>
+                        <div class="option-btn radio-option has-other" data-value="Custom">Custom</div>
+                    </div>
+                    <div class="other-input-container">
+                        <input type="text" class="other-text-input" name="protein_goal_custom" placeholder="e.g. 45g">
+                    </div>
+                </div>
+
+                <div class="question-group">
+                    <label class="question-title">Carbohydrate Goal Per Meal</label>
+                    <p class="question-desc">Select one option</p>
+                    <div class="options-grid single-select" data-name="carb_goal">
+                        <div class="option-btn radio-option logic-none" data-value="No goal">No goal</div>
+                        <div class="option-btn radio-option" data-value="Low carb (under 30g)">Low carb &mdash; under 30g</div>
+                        <div class="option-btn radio-option" data-value="Moderate (30-60g)">Moderate &mdash; 30&ndash;60g</div>
+                        <div class="option-btn radio-option" data-value="Higher (60g+)">Higher &mdash; 60g+</div>
+                        <div class="option-btn radio-option has-other" data-value="Custom">Custom</div>
+                    </div>
+                    <div class="other-input-container">
+                        <input type="text" class="other-text-input" name="carb_goal_custom" placeholder="e.g. 50g">
                     </div>
                 </div>
             </div>

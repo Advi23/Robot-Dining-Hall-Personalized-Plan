@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const supabase = window.supabase.createClient(supabaseUrl, supabaseKey);
 
     let currentPage = 1;
-    const totalPages = 4;
+    const totalPages = 5;
 
     const pages = document.querySelectorAll('.form-page');
     const nextBtn = document.getElementById('next-btn');
