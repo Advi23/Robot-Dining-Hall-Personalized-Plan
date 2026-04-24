@@ -1,4 +1,0 @@
-source;share/velodyne_driver/local_setup.bash
-source;share/velodyne_driver/local_setup.dsv
-source;share/velodyne_driver/local_setup.sh
-source;share/velodyne_driver/local_setup.zsh

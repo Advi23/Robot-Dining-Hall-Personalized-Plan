@@ -1,6 +1,0 @@
-Invoking command in '/home/4_fri/bwi_ros2/build/nav2_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/bwi_ros2_common/nav2_bringup -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/nav2_bringup
-Invoked command in '/home/4_fri/bwi_ros2/build/nav2_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/bwi_ros2_common/nav2_bringup -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/nav2_bringup
-Invoking command in '/home/4_fri/bwi_ros2/build/nav2_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/nav2_bringup -- -j12 -l12
-Invoked command in '/home/4_fri/bwi_ros2/build/nav2_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/nav2_bringup -- -j12 -l12
-Invoking command in '/home/4_fri/bwi_ros2/build/nav2_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/nav2_bringup
-Invoked command in '/home/4_fri/bwi_ros2/build/nav2_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/4_fri/bwi_ros2/build/nav2_bringup

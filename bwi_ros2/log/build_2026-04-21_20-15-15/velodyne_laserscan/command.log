@@ -1,3 +1,0 @@
-Invoking command in '/home/4_fri/bwi_ros2/build/velodyne_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/lidar/velodyne/velodyne_laserscan -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/velodyne_laserscan
-Invoked command in '/home/4_fri/bwi_ros2/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/4_fri/bwi_ros2/src/lidar/velodyne/velodyne_laserscan -DCMAKE_INSTALL_PREFIX=/home/4_fri/bwi_ros2/install/velodyne_laserscan
-Invoking command in '/home/4_fri/bwi_ros2/build/velodyne_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/4_fri/bwi_ros2/build/velodyne_laserscan -- -j12 -l12

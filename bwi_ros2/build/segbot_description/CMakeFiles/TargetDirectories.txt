@@ -1,9 +1,0 @@
-/home/4_fri/bwi_ros2/build/segbot_description/CMakeFiles/uninstall.dir
-/home/4_fri/bwi_ros2/build/segbot_description/CMakeFiles/segbot_description_uninstall.dir
-/home/4_fri/bwi_ros2/build/segbot_description/CMakeFiles/test.dir
-/home/4_fri/bwi_ros2/build/segbot_description/CMakeFiles/edit_cache.dir
-/home/4_fri/bwi_ros2/build/segbot_description/CMakeFiles/rebuild_cache.dir
-/home/4_fri/bwi_ros2/build/segbot_description/CMakeFiles/list_install_components.dir
-/home/4_fri/bwi_ros2/build/segbot_description/CMakeFiles/install.dir
-/home/4_fri/bwi_ros2/build/segbot_description/CMakeFiles/install/local.dir
-/home/4_fri/bwi_ros2/build/segbot_description/CMakeFiles/install/strip.dir
